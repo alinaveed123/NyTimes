@@ -315,7 +315,7 @@
 		BA9BF1F2228C3BBB004E353A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				CF001DC8228CAE7200AB8E40 /* SSPopup */,
+				CF001DC8228CAE7200AB8E40 /* CZPickerView */,
 				CF001DBA228C6EA800AB8E40 /* NavigationBar */,
 				BA9BF209228C422D004E353A /* UtilityClass */,
 				BA9BF1F4228C4088004E353A /* Reachability */,
@@ -371,13 +371,13 @@
 			path = NavigationBar;
 			sourceTree = "<group>";
 		};
-		CF001DC8228CAE7200AB8E40 /* SSPopup */ = {
+		CF001DC8228CAE7200AB8E40 /* CZPickerView */ = {
 			isa = PBXGroup;
 			children = (
 				CF001DCC228CB3C800AB8E40 /* CZPickerView.h */,
 				CF001DCD228CB3C900AB8E40 /* CZPickerView.m */,
 			);
-			path = SSPopup;
+			path = CZPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
