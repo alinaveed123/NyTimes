@@ -32,6 +32,7 @@
 		CEF908D57D0DAEDBB3544563 /* libPods-NyTimesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE665EDE3B1845F29A18D91 /* libPods-NyTimesUITests.a */; };
 		CF001DB9228C68E500AB8E40 /* NewsDetatilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF001DB8228C68E500AB8E40 /* NewsDetatilsViewController.m */; };
 		CF001DBD228C6EA900AB8E40 /* UIBarButtonItem+BarButtonItemExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = CF001DBC228C6EA800AB8E40 /* UIBarButtonItem+BarButtonItemExtended.m */; };
+		CF001DCE228CB3C900AB8E40 /* CZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF001DCD228CB3C900AB8E40 /* CZPickerView.m */; };
 		DADAF41F465602E0AE32531D /* libPods-NyTimes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10631BDE5D9E26E1A1D475CA /* libPods-NyTimes.a */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,9 @@
 		CF001DB8228C68E500AB8E40 /* NewsDetatilsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsDetatilsViewController.m; sourceTree = "<group>"; };
 		CF001DBB228C6EA800AB8E40 /* UIBarButtonItem+BarButtonItemExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BarButtonItemExtended.h"; sourceTree = "<group>"; };
 		CF001DBC228C6EA800AB8E40 /* UIBarButtonItem+BarButtonItemExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BarButtonItemExtended.m"; sourceTree = "<group>"; };
+		CF001DC3228CABCF00AB8E40 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CF001DCC228CB3C800AB8E40 /* CZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPickerView.h; sourceTree = "<group>"; };
+		CF001DCD228CB3C900AB8E40 /* CZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPickerView.m; sourceTree = "<group>"; };
 		ECC796CA9EF41478BAD89B51 /* libPods-NyTimesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NyTimesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFFA3F62D7CE24E1DE333EF /* Pods-NyTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesTests.release.xcconfig"; path = "Target Support Files/Pods-NyTimesTests/Pods-NyTimesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +201,7 @@
 				BA9BF1A1228C0CA9004E353A /* LaunchScreen.storyboard */,
 				BA9BF1A4228C0CA9004E353A /* Info.plist */,
 				BA9BF1A5228C0CA9004E353A /* main.m */,
+				CF001DC3228CABCF00AB8E40 /* PrefixHeader.pch */,
 			);
 			path = NyTimes;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 		BA9BF1F2228C3BBB004E353A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CF001DC8228CAE7200AB8E40 /* SSPopup */,
 				CF001DBA228C6EA800AB8E40 /* NavigationBar */,
 				BA9BF209228C422D004E353A /* UtilityClass */,
 				BA9BF1F4228C4088004E353A /* Reachability */,
@@ -363,6 +369,15 @@
 				CF001DBC228C6EA800AB8E40 /* UIBarButtonItem+BarButtonItemExtended.m */,
 			);
 			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		CF001DC8228CAE7200AB8E40 /* SSPopup */ = {
+			isa = PBXGroup;
+			children = (
+				CF001DCC228CB3C800AB8E40 /* CZPickerView.h */,
+				CF001DCD228CB3C900AB8E40 /* CZPickerView.m */,
+			);
+			path = SSPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,6 +606,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF001DCE228CB3C900AB8E40 /* CZPickerView.m in Sources */,
 				BA9BF1F7228C4088004E353A /* Reachability.m in Sources */,
 				CF001DB9228C68E500AB8E40 /* NewsDetatilsViewController.m in Sources */,
 				BA9BF1D7228C16BB004E353A /* CustomIndicator.m in Sources */,

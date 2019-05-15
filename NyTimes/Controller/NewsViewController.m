@@ -6,22 +6,16 @@
 //
 
 #import "NewsViewController.h"
-#import "WebService.h"
-#import "GlobalObjects.h"
-#import "Constant.h"
-#import "AppDelegate.h"
-#import "BaseClass.h"
-#import "Results.h"
-#import "Media.h"
-#import "MostViewTableviewCell.h"
-#import "MediaMetadata.h"
-#import "Utility.h"
-#import "Constant.h"
-#import "NewsDetatilsViewController.h"
-@interface NewsViewController ()
+#import "PrefixHeader.pch"
+#import "CZPickerView.h"
+
+
+@interface NewsViewController ()<CZPickerViewDataSource, CZPickerViewDelegate>
 {
     
 }
+@property NSArray *periodsArray;
+
 @end
 
 @implementation NewsViewController
@@ -31,14 +25,33 @@
     
      self.title = @"New York Times";
     
-    [self callWebserviceMostviewSections];
+    self.periodsArray = @[@"1", @"7", @"30"];
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"Load"
+                                                             style:UIBarButtonItemStylePlain
+                                                            target:self
+                                                            action:@selector(LoadPeriodList:)];
+
+    NSArray *buttonArray = [NSArray arrayWithObjects:item, nil];
+    self.navigationItem.rightBarButtonItems = buttonArray;
+    [self callWebserviceMostviewSections:@"7"];
     
 }
+-(void)LoadPeriodList:(id)sender {
+    
+    CZPickerView *picker = [[CZPickerView alloc] initWithHeaderTitle:@"Period Value" cancelButtonTitle:@"Cancel" confirmButtonTitle:@"Confirm"];
+    picker.delegate = self;
+    picker.dataSource = self;
+    picker.needFooterView = YES;
+    [picker show];
+        
+}
+    
 
--(void)callWebserviceMostviewSections
+-(void)callWebserviceMostviewSections:(NSString *)Numbers
 {
     
-    NSString *webService = [NSString stringWithFormat:@"%@7.json?api-key=%@",[GlobalObjects getBaseURLGeneral],[GlobalObjects getAPIKey]];
+    NSString *webService = [NSString stringWithFormat:@"%@%@.json?api-key=%@",[GlobalObjects getBaseURLGeneral],Numbers,[GlobalObjects getAPIKey]];
     [[WebService sharedInstances] commonMethodForGet:webService success:^(NSDictionary *dict) {
         
         //Loading date from background thread to main thread.
@@ -94,6 +107,55 @@
 }
 
 
+
+- (NSAttributedString *)czpickerView:(CZPickerView *)pickerView
+               attributedTitleForRow:(NSInteger)row{
+    
+    NSAttributedString *att = [[NSAttributedString alloc]
+                               initWithString:self.periodsArray[row]
+                               attributes:@{
+                                            NSFontAttributeName:[UIFont fontWithName:@"Avenir-Light" size:18.0]
+                                            }];
+    return att;
+}
+
+- (NSString *)czpickerView:(CZPickerView *)pickerView
+               titleForRow:(NSInteger)row{
+    return self.periodsArray[row];
+}
+
+- (UIImage *)czpickerView:(CZPickerView *)pickerView imageForRow:(NSInteger)row {
+    return nil;
+}
+
+- (NSInteger)numberOfRowsInPickerView:(CZPickerView *)pickerView {
+    return self.periodsArray.count;
+}
+
+- (void)czpickerView:(CZPickerView *)pickerView didConfirmWithItemAtRow:(NSInteger)row {
+    
+    [self callWebserviceMostviewSections:self.periodsArray[row]];
+}
+
+- (void)czpickerView:(CZPickerView *)pickerView didConfirmWithItemsAtRows:(NSArray *)rows {
+   
+}
+
+- (void)czpickerViewDidClickCancelButton:(CZPickerView *)pickerView {
+    [self.navigationController setNavigationBarHidden:YES];
+}
+
+- (void)czpickerViewWillDisplay:(CZPickerView *)pickerView {
+}
+
+- (void)czpickerViewDidDisplay:(CZPickerView *)pickerView {
+}
+
+- (void)czpickerViewWillDismiss:(CZPickerView *)pickerView {
+}
+
+- (void)czpickerViewDidDismiss:(CZPickerView *)pickerView {
+}
 
 
 @end

@@ -6,9 +6,7 @@
 //
 
 #import "NewsDetatilsViewController.h"
-#import "MediaMetadata.h"
-#import "Media.h"
-#import "UIBarButtonItem+BarButtonItemExtended.h"
+#import "PrefixHeader.pch"
 
 @interface NewsDetatilsViewController ()
 

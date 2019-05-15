@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  NyTimes
+//
+//  Created by Nytimes on 5/15/19.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifndef DEBUG
+#define NSLog(...);
+#endif
+#import "WebService.h"
+#import "GlobalObjects.h"
+#import "Constant.h"
+#import "AppDelegate.h"
+#import "BaseClass.h"
+#import "Results.h"
+#import "Media.h"
+#import "MostViewTableviewCell.h"
+#import "MediaMetadata.h"
+#import "Utility.h"
+#import "Constant.h"
+#import "NewsDetatilsViewController.h"
+#import "UIBarButtonItem+BarButtonItemExtended.h"
+
+#endif /* PrefixHeader_pch */

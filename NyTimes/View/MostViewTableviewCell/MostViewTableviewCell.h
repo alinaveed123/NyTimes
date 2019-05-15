@@ -1,9 +1,8 @@
 //
-//  GroceryOrderHistoryTableViewCell.h
-//  UCSApp
+//  MostViewTableviewCell.h
+//  NyTimes
 //
-//  Created by Union Coop on 7/10/18.
-//  Copyright © 2018 Deepak Jose. All rights reserved.
+//  Created by Nytimes on 5/15/19.
 //
 
 #import <UIKit/UIKit.h>
