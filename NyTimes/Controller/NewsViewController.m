@@ -17,7 +17,7 @@
 #import "MediaMetadata.h"
 #import "Utility.h"
 #import "Constant.h"
-
+#import "NewsDetatilsViewController.h"
 @interface NewsViewController ()
 {
     
@@ -86,7 +86,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    Results* locaDic = [_arrMostviews objectAtIndex:indexPath.row];
+    NewsDetatilsViewController *listobject = [self.storyboard instantiateViewControllerWithIdentifier:@"NewsDetatilsViewController"];
+    listobject.newsDetails = locaDic;
+    [self.navigationController pushViewController:listobject animated:YES];
 }
+
 
 
 
