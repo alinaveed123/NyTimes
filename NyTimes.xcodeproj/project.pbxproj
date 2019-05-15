@@ -27,6 +27,8 @@
 		BA9BF1EA228C1C71004E353A /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BF1E4228C1C71004E353A /* Media.m */; };
 		BA9BF1EB228C1C71004E353A /* MediaMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BF1E6228C1C71004E353A /* MediaMetadata.m */; };
 		BA9BF1EF228C2F00004E353A /* MostViewTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BF1EE228C2F00004E353A /* MostViewTableviewCell.m */; };
+		BA9BF1F7228C4088004E353A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BF1F5228C4088004E353A /* Reachability.m */; };
+		BA9BF20C228C4248004E353A /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BF20B228C4248004E353A /* Utility.m */; };
 		CEF908D57D0DAEDBB3544563 /* libPods-NyTimesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE665EDE3B1845F29A18D91 /* libPods-NyTimesUITests.a */; };
 		DADAF41F465602E0AE32531D /* libPods-NyTimes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10631BDE5D9E26E1A1D475CA /* libPods-NyTimes.a */; };
 /* End PBXBuildFile section */
@@ -93,6 +95,10 @@
 		BA9BF1E7228C1C71004E353A /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
 		BA9BF1ED228C2F00004E353A /* MostViewTableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostViewTableviewCell.h; sourceTree = "<group>"; };
 		BA9BF1EE228C2F00004E353A /* MostViewTableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostViewTableviewCell.m; sourceTree = "<group>"; };
+		BA9BF1F5228C4088004E353A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BA9BF1F6228C4088004E353A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BA9BF20A228C4248004E353A /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		BA9BF20B228C4248004E353A /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		ECC796CA9EF41478BAD89B51 /* libPods-NyTimesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NyTimesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFFA3F62D7CE24E1DE333EF /* Pods-NyTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyTimesTests.release.xcconfig"; path = "Target Support Files/Pods-NyTimesTests/Pods-NyTimesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -297,6 +303,8 @@
 		BA9BF1F2228C3BBB004E353A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BF209228C422D004E353A /* UtilityClass */,
+				BA9BF1F4228C4088004E353A /* Reachability */,
 				BA9BF1CC228C0F51004E353A /* GlobalObjects */,
 				BA9BF1D0228C13EB004E353A /* Constant */,
 				BA9BF1D2228C16BB004E353A /* CustomIndicator */,
@@ -313,6 +321,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BA9BF1F4228C4088004E353A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BF1F5228C4088004E353A /* Reachability.m */,
+				BA9BF1F6228C4088004E353A /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		BA9BF209228C422D004E353A /* UtilityClass */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BF20A228C4248004E353A /* Utility.h */,
+				BA9BF20B228C4248004E353A /* Utility.m */,
+			);
+			path = UtilityClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -324,6 +350,7 @@
 				BA9BF18F228C0CA9004E353A /* Sources */,
 				BA9BF190228C0CA9004E353A /* Frameworks */,
 				BA9BF191228C0CA9004E353A /* Resources */,
+				6700A610E465863A7AC28061 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -465,6 +492,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6700A610E465863A7AC28061 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NyTimes/Pods-NyTimes-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FCAlertView/FCAlertView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FCAlertView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NyTimes/Pods-NyTimes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		718EA02AA74BE8200D39A0A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -516,11 +565,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9BF1F7228C4088004E353A /* Reachability.m in Sources */,
 				BA9BF1D7228C16BB004E353A /* CustomIndicator.m in Sources */,
 				BA9BF1CF228C0F51004E353A /* GlobalObjects.m in Sources */,
 				BA9BF19B228C0CA9004E353A /* NewsViewController.m in Sources */,
 				BA9BF1EB228C1C71004E353A /* MediaMetadata.m in Sources */,
 				BA9BF1A6228C0CA9004E353A /* main.m in Sources */,
+				BA9BF20C228C4248004E353A /* Utility.m in Sources */,
 				BA9BF1CB228C0D66004E353A /* WebService.m in Sources */,
 				BA9BF198228C0CA9004E353A /* AppDelegate.m in Sources */,
 				BA9BF1EA228C1C71004E353A /* Media.m in Sources */,

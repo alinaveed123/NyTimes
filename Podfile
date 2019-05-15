@@ -6,6 +6,8 @@ target 'NyTimes' do
   # use_frameworks!
   
   pod 'YYWebImage'
+  pod 'FCAlertView'
+
   # Pods for NyTimes
 
   target 'NyTimesTests' do

@@ -10,6 +10,7 @@
 
 #define appdel (AppDelegate *)[[UIApplication sharedApplication] delegate]
 #define DEVICE_FRAME [UIScreen mainScreen].bounds
+#define notifyRechability @"notifyRechability"
 
 
 #endif

@@ -15,6 +15,9 @@
 #import "Media.h"
 #import "MostViewTableviewCell.h"
 #import "MediaMetadata.h"
+#import "Utility.h"
+#import "Constant.h"
+
 @interface NewsViewController ()
 {
     
@@ -27,8 +30,8 @@
     [super viewDidLoad];
     
      self.title = @"New York Times";
-  
-     [self callWebserviceMostviewSections];
+    
+    [self callWebserviceMostviewSections];
     
 }
 
@@ -36,13 +39,11 @@
 {
     
     NSString *webService = [NSString stringWithFormat:@"%@7.json?api-key=%@",[GlobalObjects getBaseURLGeneral],[GlobalObjects getAPIKey]];
-    [appdel UCSHUD];
-    
     [[WebService sharedInstances] commonMethodForGet:webService success:^(NSDictionary *dict) {
         
         //Loading date from background thread to main thread.
         dispatch_async(dispatch_get_main_queue(), ^{
-            [appdel RemoveUCSHUD];
+           [appdel RemoveUCSHUD];
             BaseClass *base = [[BaseClass alloc] initWithDictionary:dict];
             if([base.status isEqualToString:@"OK"])
             {
@@ -52,7 +53,7 @@
         });
     } fail:^(NSError *error) {
         [appdel RemoveUCSHUD];
-    }];
+    } withController:self];
 }
 
 

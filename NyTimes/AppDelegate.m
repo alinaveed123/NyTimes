@@ -18,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.connectionAvalablity = NO;
+    [self checkNetworkAvailability];
     return YES;
 }
 
@@ -65,5 +67,54 @@
     [_currentView removeFromSuperview];
     [[[[UIApplication sharedApplication] delegate]window] setNeedsLayout];
     _currentView = nil;
+}
+
+
+-(void)checkNetworkAvailability
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    self.internetReachability = [Reachability reachabilityForInternetConnection];
+    [self.internetReachability startNotifier];
+    [self updateInterfaceWithReachability:self.internetReachability];
+}
+
+- (void) reachabilityChanged:(NSNotification *)note
+{
+    Reachability* curReach = [note object];
+    NSParameterAssert([curReach isKindOfClass:[Reachability class]]);
+    [self updateInterfaceWithReachability:curReach];
+}
+
+- (void)updateInterfaceWithReachability:(Reachability *)reachability
+{
+    BOOL flag;
+    NetworkStatus netStatus = [reachability currentReachabilityStatus];
+    
+    switch (netStatus)
+    {
+        case NotReachable: {
+            flag=NO;
+            break;
+        }
+        case ReachableViaWWAN: {
+            flag=YES;
+            break;
+        }
+        case ReachableViaWiFi: {
+            flag=YES;
+            break;
+        }
+    }
+    if (flag) {
+        _connectionAvalablity=YES;
+        
+    } else {
+        _connectionAvalablity=NO;
+    }
+    [[NSNotificationCenter defaultCenter]postNotificationName:notifyRechability object:nil];
+}
+
+-(BOOL)CheckInternetConnection{
+    return self.connectionAvalablity;
 }
 @end

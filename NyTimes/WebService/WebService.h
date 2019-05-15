@@ -6,6 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 typedef void (^SuccessHandler)(id responseObject);
 typedef void (^ErrorHandler)(NSError *error);
@@ -19,5 +21,8 @@ typedef void (^ErrorHandler)(NSError *error);
 @property(nonatomic,strong)   NSURLSessionConfiguration *configuration;
 
 +(id)sharedInstances;
--(void)commonMethodForGet:(NSString *)url success:(void (^)(NSDictionary *dict))success fail:(ErrorHandler)nonsuccess;
+-(void)commonMethodForGet:(NSString *)url
+                  success:(void (^)(NSDictionary *dict))success
+                     fail:(ErrorHandler)nonsuccess
+           withController:(UIViewController *)caller;
 @end

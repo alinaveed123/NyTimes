@@ -7,183 +7,219 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0152624CA17524DD47619C15F76CF69A /* Pods-NyTimes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BD0F288709F0764E60EE598166FD2 /* Pods-NyTimes-dummy.m */; };
-		023D286B4362DFF356A6ABF864EA848C /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F14350E5FB339CCF417EA02707BED /* UIImageView+YYWebImage.m */; };
-		09D2EA47E7CB80A76B8CD72734254A88 /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 253207CE0A85A138FA1FD06D8515CBAD /* CALayer+YYWebImage.m */; };
-		0F98A8662C15E9462C8477BB01E07784 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 138E19C8C4B41B1AE88DC9716802B934 /* YYAnimatedImageView.m */; };
-		1F388B2B0031170DA3DA8CD1EB7EAA2A /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1197BE236F8347AFCC354C9D3769833C /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24CF8A66C481BBFA42F5E2AF60D6291E /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 331C579AEF7AB71A76D241AE17F9C8A7 /* MKAnnotationView+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		25610A37B8846C3BA53F15F23F11B8DB /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C7554B96E998174B09465E690204D87D /* YYSpriteSheetImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		289517DB1A5D60CB22EEA5F09490A736 /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216DA326D7ECEAB6DC359F92E571050 /* _YYWebImageSetter.m */; };
-		32704F520AA60708A9CAA475DFB42000 /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7979DBD9B77BC4039235AFF5892D1E85 /* YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		38B577B38CB1DA4C6D441FCF3B069124 /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B419035C6B29656F74676583889710 /* UIImageView+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D5222813E5C9773A91849B2C08BEAC8 /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C082FFB0AFF2621129AFDECF4EA2F4 /* YYImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		52EB9260EF202C5B57A7B95FF7F38164 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6757A34C22E60774751883D4D1733199 /* YYCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		567B74D6E8275510FE40FAFEEC913413 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C9AAFA6BAD98A0A472C04A778BDED5 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		56A286EAC56C8BB2EC7A94A801FF2913 /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBE9C96B752D432BF8401335C2E1FE4 /* YYAnimatedImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7159B4C2264346196BA74D1AEAD60CBD /* YYWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DC8898749EDDEDBBA20CA016B7677 /* YYWebImage-dummy.m */; };
-		79DBD6AD71A15E984B855B033DA95B11 /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D1F5CCA5418294537E63A7AB4D865C /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80C97BF9B511F02E8B78AD6830146885 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C5C0FB6B400693AF74E60B614D4174 /* UIImage+YYWebImage.m */; };
-		80F658AABD6C176FF3B2B4B4EF2A7195 /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8F84502F3BD49BF4369CA0787F539D /* YYImageCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F3CF602527785FE090B5A444749437C /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D97BBF5FA8D2DC17376ED007D69CD85 /* YYSpriteSheetImage.m */; };
-		904F8E74FF44F52E3FE7530C88CD6FD6 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E51E0F584E5C8E3569704190EA60FD55 /* YYImage.m */; };
-		91EAC68587AA3C0411658CE2176D8604 /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA46045D1A74498A401CD6CA6A371FB /* YYWebImageOperation.m */; };
-		94C391475830623D658EF1BBF346A702 /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246A7FC68D95A4AE3EB5F78BA10EC38 /* UIButton+YYWebImage.m */; };
-		99E94F06CEB92ECCAC481A3883D82E3A /* Pods-NyTimesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F467BE4A8E7CE1A5822078B12ECF3891 /* Pods-NyTimesTests-dummy.m */; };
-		A36B91ECF1DB2FB91B704A66070ED224 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 45807DB34583340D2C0CE5BCCFFD0E08 /* YYFrameImage.m */; };
-		AD9CA34D05F6E306409B0F92F774A639 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A76399E7AAED01438C01DD29E15192 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B549FB49E4C8D87C93375DBB604B3111 /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211E7B28039AB8EEF183ADD18D98B8B0 /* YYWebImageManager.m */; };
-		B7B360484E6F63A364D334E136ED954D /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A737367D9C4D533493D0BE20AB530E9F /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B7EDDC1EC50CBE1A396FA57D452356E9 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DC8CB70A41BD9C30A95FB4F89C22C /* YYDiskCache.m */; };
-		BC462C2607C5EB50B8A263616A33869B /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFA8F980F2231E7CA6D216CD6F6A1F /* YYKVStorage.m */; };
-		CB567D61F9112CCF3ED60E2E19BA7BE0 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE4F628C0D140B8500729C1B4A50745 /* MKAnnotationView+YYWebImage.m */; };
-		CF1BE36C9D2D77184124C9442EAFA617 /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9866D74AF0D6419E13701845156D8618 /* UIImage+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CFE974AE831CA14B13BF3DFEBCAEDB63 /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9E5E398C5CB124951D13FD483C77D0 /* CALayer+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D14A16FBE75F4D55F236EA3656A1E190 /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 331F530F7767BA4F76C64D338FC92CDF /* YYImageCache.m */; };
-		D1F02043A71C555780072DE2374F4C17 /* YYImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9ECA50EA1F4F35BAFFF60C60469C6B /* YYImage-dummy.m */; };
-		D46EE27F86480FD6A417F39B7C4CCEC9 /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1481404964D94CE84336146489E301 /* _YYWebImageSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6F34A2CB573DBF3133A3AA2E0BA3A87 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261AB92D3F268E7218DDFD6FB7F2C08 /* YYCache-dummy.m */; };
-		DF177C00D1C7E5872B88F0A5C9232AB3 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E523CC4D8C780E90A5AE40F8170E26C /* YYCache.m */; };
-		E64072242080B7157A83D7CEA0013D7B /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0923B16CC0A8C766853728FFBE305F51 /* YYImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7C7B4EC72BBFF8634177A592FA9B64A /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 687726B3F06C66F184683EE3CED85A54 /* YYMemoryCache.m */; };
-		E956F67DF557EB6EFFE8622E397931FA /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F90E4514698254586F858F0E58579150 /* YYFrameImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F32D1EF70AEBBFF5DAE8EEE21F409BAB /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9CC6E860506CCFE591FB3A75DA06E8 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F95C0AC31D55CD13B90EFB48A8B8E70E /* Pods-NyTimesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 810203131C4289DCEDC102EBD2163C74 /* Pods-NyTimesUITests-dummy.m */; };
-		FD1ECD1D84E0DFF70F96D66ECB87D2C6 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EF27A796C3302C995CDB81EDD0AA2C /* YYImageCoder.m */; };
+		011236224D05904A9DCD21B2F5E829E0 /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 754F6FBF29F69417C413A93A4AB13C03 /* MKAnnotationView+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		050A4761BDF3AF48089BD7063604BE51 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF20ED8E514E8D96F5A1F17836159B7 /* YYKVStorage.m */; };
+		05139292777C8F5485A2C5614EABBA08 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D023929CBB4D60D109D4030396D023 /* heart.png */; };
+		05CC65E02DC755EEADE96F13D49424EC /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9524FC54F9B76CF7CAD69F1EF5D42941 /* YYImage.m */; };
+		0A706BCD9C77FBA30FC31E655A3CC947 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C984EEA16D17197D9614DBEBA1165 /* YYCache-dummy.m */; };
+		0D8C13CD6D8FEC1CD7B42F8EDE9069F9 /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 903D97A7C1D74B6C777F87622292E0CE /* UIImageView+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F0693A4584FB1B8CFC0DCBA12441CAA /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD76B701796240CC56846F216DE66C6 /* UIImage+YYWebImage.m */; };
+		10570C85FCF81E861926692EE143EAA7 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE01F6A73729FCF348B59B681B2933B /* YYCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1251B74B724072774B2847500FE58B42 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E77E1829303A21C09B2D6F8D7A147 /* FCAlertView.m */; };
+		17E10C3C2FF7797DF91821FBD8AB255B /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8807956DCE1E862C864FFFB682E7C4C /* YYWebImageOperation.m */; };
+		222927DA8C6BC2184A5C0A638D6BE99B /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B714C2DF1B1ECB2490068D5B6CC98EDD /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24FEF34CE2F24572BB5FA849C70B44CA /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A54E4CBEEDB46ABA712456D970B56B52 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38F2E1FB3B65D8A404B12D92AEEE765D /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 331C6937799BC0C40070F55551AA4EFE /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C390DEA29AB0214DF30A1E16FAC6CA1 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F6760171D4680A6718A4A8C526F4B /* YYMemoryCache.m */; };
+		5053F92B88A86EFEC72CBCFCA7D9B63E /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E4CD82A1C77E04E92198707B5B746D /* YYFrameImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5343DE662566F422ACB727ECD350E29B /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CE89399C065C1959C184BF61E6967E7C /* YYSpriteSheetImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55B5B5CA9E94B87EB2BFDC1B11FA155A /* YYWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E796668E522C197C991A28D4ED465A /* YYWebImage-dummy.m */; };
+		56D2FBF5C6D8CA61EF9A2D93C0B0C176 /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBA1D9782654D3F8B60A2093849D24 /* FCAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5823291ADA12EBE06570F0E9D4A12C64 /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4E03540B92DDF589CFC751547CEC74 /* close-round.png */; };
+		58D3CD905B72CB03C675813B85F07BE5 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 57395215458B328B765673E7AFF65372 /* YYDiskCache.m */; };
+		6837D3B6B58876CA3C253615A0C85237 /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331169B5BBB33420CF69CA0376A113 /* UIImageView+YYWebImage.m */; };
+		68AF183D718AEB845CF15D49419231DB /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E810C031E658E8B63D7CD9E9AF3D154 /* YYImageCoder.m */; };
+		6AA5816DCFE7566CE5EC7780C18A8309 /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C06118562432D507AB0D99EDAAA05 /* UIButton+YYWebImage.m */; };
+		6D062A344FCC6619F892EA3663AF5090 /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7D0D9422E9E363D21D55AE0F4A57DB /* UIImage+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D39031989BC4E9791EE0F1EC6071E76 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0A0C480A239E496FF8D2B696EF3B59 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70F0435CD7B2F36475447A24FEC81E1E /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7EEC89D5FFE507D4021918BD25C993 /* YYImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76B149D67E32567532A056A6AF140659 /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AD189A79C688FBA6CC068CC2D4947B /* YYImageCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D57EBBE4FF26D49FBAE32341E0A6C98 /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F22AFC3AC70A466347206FC8A9B760 /* YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DCBFF2ECBDC3CBA53CC9146656D0DB4 /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2A31C3488AE38AE32B4A1F31065415 /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		872B89D7067757281DCA42BA2BE61349 /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA9FC8B3BD29C910F1CBC72C073B26C /* checkmark-round.png */; };
+		8C86BDC8817D4B20EE78903B7E1FDCAC /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 793A8AFA667F2334167601DFA93E1785 /* _YYWebImageSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94377C02C49AD035D826D00E335B3A05 /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6D6A693F854684978DADC514AC108C /* _YYWebImageSetter.m */; };
+		99E94F06CEB92ECCAC481A3883D82E3A /* Pods-NyTimesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D310F5EAA2F828F759F9608577227908 /* Pods-NyTimesTests-dummy.m */; };
+		9B7E529E4A2C52FA0E007318170BDB18 /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C864503A19640259FC25AFE637D4C91 /* YYImageCache.m */; };
+		AFF59E3B247F5B1C8B11CAE2D88AC42A /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B777C3E35A566CA25F14DF7623DC354 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAC626B48B37F8E48FAAC8817968C035 /* FCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F165200CF901C50889FE98E114627094 /* FCAlertView-dummy.m */; };
+		BFC64811A52E6C5340D881E9E6A631B2 /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5DF30C9EBE7686ACBA75B272F62D12 /* alert-round.png */; };
+		C24AB27565F70512F1DCF85956191284 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 824A42389D1E30F02A034CEEC11EB49A /* YYFrameImage.m */; };
+		C371213BBA02F2F5499184C8B2A7560A /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F89AC5F29CA666C49F82D814CD2A0D /* YYImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4ADD0DC5BBC572CB661C064F46834FA /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26289247D0BC43E33FF968C2F3B92F /* YYSpriteSheetImage.m */; };
+		D27A73D45E834F3A0139D96D79C39BF3 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1B1705F7D395CF7A087B021F6DC8B /* MKAnnotationView+YYWebImage.m */; };
+		DC5F362F9BDC8EF9D59C722EE8D3DBF8 /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F461EDC8A52E88250F7B18A0E2EB4F6 /* CALayer+YYWebImage.m */; };
+		E203E24DAA06F2F932581257E971D052 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB0747EDBA9E44AAD85DC03AE421330 /* star.png */; };
+		E271169050BD321868CECAE81A91A29E /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924418ED8D88E8ECC5885FA80B62768 /* YYWebImageManager.m */; };
+		E71C738BB1C76C6921949E60679D51F4 /* Pods-NyTimes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A9668BF6C319F58C2D622DA1746D /* Pods-NyTimes-dummy.m */; };
+		E887EA459C70EA1E81386F95EA34A741 /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF97F1B20F1E6D1374107178C1865AD /* CALayer+YYWebImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E984605260D07020405FF6C4BCB329E4 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991E8CAEA6DD29D0C8C8B1C3F044472 /* YYCache.m */; };
+		F529EE48EE79D1E6BEF208EA3DB13DC0 /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2256B821A6F76392A6B9C57DFCA3C3 /* YYAnimatedImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7D313394BD251CA2CFFACBD492151EA /* YYImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C36B277F656A15B86E084E39502A505 /* YYImage-dummy.m */; };
+		F95C0AC31D55CD13B90EFB48A8B8E70E /* Pods-NyTimesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562BCD3C5E3FA9F4AF61FAA4D15CC0E2 /* Pods-NyTimesUITests-dummy.m */; };
+		FB9E40079BA3CC7BDB76982F690F97BC /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5712790517AF2251155EBD95D0039 /* YYAnimatedImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C80F97498556A5C2C4FDD901251FFEC /* PBXContainerItemProxy */ = {
+		1282E8BFEE71DF0E112BD68AF83F3B14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B7F55A52DE1DA6F7073CE55A268D6209;
+			remoteGlobalIDString = 1FDEA790C92F7BFA0717DB3EF4BF837E;
 			remoteInfo = YYCache;
 		};
-		376460D85A7948E430DB0B7585B98382 /* PBXContainerItemProxy */ = {
+		376CA4F27FA3C6DC582B2D88EFE3D9F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BC5F588B7A2A741930B829D9A05F3336;
-			remoteInfo = YYWebImage;
+			remoteGlobalIDString = 60B6876E30432683A50D6E214735242A;
+			remoteInfo = YYImage;
 		};
 		4A8DF5B0E1B25A6AE697799693BA10B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B69929C23A66C9DBDE08428FB5006E9;
+			remoteGlobalIDString = 6D257CBAF51A21D8F896342695BED602;
 			remoteInfo = "Pods-NyTimes";
 		};
 		5B773E35F0DB0190C3A801DAB71A299A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B69929C23A66C9DBDE08428FB5006E9;
+			remoteGlobalIDString = 6D257CBAF51A21D8F896342695BED602;
 			remoteInfo = "Pods-NyTimes";
 		};
-		946DE54E789C20C11DC9E2D502F1E7CF /* PBXContainerItemProxy */ = {
+		6BBCE89997268BE70352CE12CD9B811E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3E893A4611B9396B1D5187A31FD2C69;
-			remoteInfo = YYImage;
-		};
-		C3B506CA9C1B8A8A6DD9627443242C1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3E893A4611B9396B1D5187A31FD2C69;
-			remoteInfo = YYImage;
-		};
-		C49548593903271BBF75D064D78D7F12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7F55A52DE1DA6F7073CE55A268D6209;
+			remoteGlobalIDString = 1FDEA790C92F7BFA0717DB3EF4BF837E;
 			remoteInfo = YYCache;
+		};
+		859EEAFB33004843423D43ECCAF32601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8EBAF56639FB73964C603C2F1DF930;
+			remoteInfo = "FCAlertView-FCAlertView";
+		};
+		B91DEAA8A73C577164D8BB5021368CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B6876E30432683A50D6E214735242A;
+			remoteInfo = YYImage;
+		};
+		BC8B4E56F44710B3AA9F57675CB231BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5B2DF7CD6AA53C20AD9657E318D6DC;
+			remoteInfo = YYWebImage;
+		};
+		D9617AB8ADD89E672B1DFF4452DE1146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE86496BC63BE0729BA05C91AA9D37B8;
+			remoteInfo = FCAlertView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0923B16CC0A8C766853728FFBE305F51 /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
-		0A9ECA50EA1F4F35BAFFF60C60469C6B /* YYImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYImage-dummy.m"; sourceTree = "<group>"; };
-		0BBE9C96B752D432BF8401335C2E1FE4 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAnimatedImageView.h; path = YYImage/YYAnimatedImageView.h; sourceTree = "<group>"; };
-		0E0E0D8161E06C72C0A0DAF4D66A6215 /* libYYImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYImage.a; path = libYYImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1197BE236F8347AFCC354C9D3769833C /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYWebImage/YYWebImageManager.h; sourceTree = "<group>"; };
-		127570A9F93F8EE737D761B763A451A6 /* libYYWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYWebImage.a; path = libYYWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		138E19C8C4B41B1AE88DC9716802B934 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
-		170BD821E542E1C1792B963CC15EDE33 /* libPods-NyTimesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NyTimesUITests.a"; path = "libPods-NyTimesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20343A933C2739242A542EB43BD07A7E /* Pods-NyTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimes.debug.xcconfig"; sourceTree = "<group>"; };
-		20EF27A796C3302C995CDB81EDD0AA2C /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYImage/YYImageCoder.m; sourceTree = "<group>"; };
-		211E7B28039AB8EEF183ADD18D98B8B0 /* YYWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageManager.m; path = YYWebImage/YYWebImageManager.m; sourceTree = "<group>"; };
-		2246A7FC68D95A4AE3EB5F78BA10EC38 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YYWebImage.m"; path = "YYWebImage/Categories/UIButton+YYWebImage.m"; sourceTree = "<group>"; };
-		24F774A5CA2EAF74D932CAEE49B53E81 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYCache.a; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		253207CE0A85A138FA1FD06D8515CBAD /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYWebImage/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
-		281DC8898749EDDEDBBA20CA016B7677 /* YYWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYWebImage-dummy.m"; sourceTree = "<group>"; };
-		2E523CC4D8C780E90A5AE40F8170E26C /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
-		331C579AEF7AB71A76D241AE17F9C8A7 /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+YYWebImage.h"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
-		331F530F7767BA4F76C64D338FC92CDF /* YYImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCache.m; path = YYWebImage/YYImageCache.m; sourceTree = "<group>"; };
-		346BC8B7B61117311C50358E8A620EBE /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
-		360EB5B0EAAA46B8F55D879440827AE9 /* Pods-NyTimesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		360F14350E5FB339CCF417EA02707BED /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+YYWebImage.m"; path = "YYWebImage/Categories/UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
-		3F9E5E398C5CB124951D13FD483C77D0 /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYWebImage/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
-		45807DB34583340D2C0CE5BCCFFD0E08 /* YYFrameImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFrameImage.m; path = YYImage/YYFrameImage.m; sourceTree = "<group>"; };
-		4DAFA8F980F2231E7CA6D216CD6F6A1F /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
-		4E1261C974BDFE21362069E3B89C07DA /* Pods-NyTimesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NyTimesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5216DA326D7ECEAB6DC359F92E571050 /* _YYWebImageSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _YYWebImageSetter.m; path = YYWebImage/Categories/_YYWebImageSetter.m; sourceTree = "<group>"; };
-		5C8F84502F3BD49BF4369CA0787F539D /* YYImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCoder.h; path = YYImage/YYImageCoder.h; sourceTree = "<group>"; };
-		5E1DC8CB70A41BD9C30A95FB4F89C22C /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
-		60679B5CF869A88EF8D1F18420287B47 /* Pods-NyTimes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NyTimes-acknowledgements.plist"; sourceTree = "<group>"; };
-		6730D667DAE25332981930E1AE020D29 /* YYWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYWebImage.xcconfig; sourceTree = "<group>"; };
-		6757A34C22E60774751883D4D1733199 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
-		67D1F5CCA5418294537E63A7AB4D865C /* YYWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageOperation.h; path = YYWebImage/YYWebImageOperation.h; sourceTree = "<group>"; };
-		683F42E0F99486CEAF90341D1D6B1316 /* Pods-NyTimes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NyTimes-acknowledgements.markdown"; sourceTree = "<group>"; };
-		687726B3F06C66F184683EE3CED85A54 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
-		6D97BBF5FA8D2DC17376ED007D69CD85 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSpriteSheetImage.m; path = YYImage/YYSpriteSheetImage.m; sourceTree = "<group>"; };
-		70C9AAFA6BAD98A0A472C04A778BDED5 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
-		712604238BA37D027F270F13EB56B475 /* Pods-NyTimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7979DBD9B77BC4039235AFF5892D1E85 /* YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImage.h; path = YYWebImage/YYWebImage.h; sourceTree = "<group>"; };
-		810203131C4289DCEDC102EBD2163C74 /* Pods-NyTimesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NyTimesUITests-dummy.m"; sourceTree = "<group>"; };
-		8261AB92D3F268E7218DDFD6FB7F2C08 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
-		8884C3FA653184830D0C4B7EE6DDCA6B /* Pods-NyTimesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NyTimesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		91032C1A49D64F0FF2FA0A9550EC654E /* Pods-NyTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesTests.release.xcconfig"; sourceTree = "<group>"; };
-		9866D74AF0D6419E13701845156D8618 /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYWebImage.h"; path = "YYWebImage/Categories/UIImage+YYWebImage.h"; sourceTree = "<group>"; };
-		9CA46045D1A74498A401CD6CA6A371FB /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYWebImage/YYWebImageOperation.m; sourceTree = "<group>"; };
+		091A7C7427EB628DF599D65382438FB2 /* YYImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYImage.xcconfig; sourceTree = "<group>"; };
+		0A331169B5BBB33420CF69CA0376A113 /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+YYWebImage.m"; path = "YYWebImage/Categories/UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
+		0DE01F6A73729FCF348B59B681B2933B /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
+		0FA9FC8B3BD29C910F1CBC72C073B26C /* checkmark-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark-round.png"; path = "FCAlertView/Assets/checkmark-round.png"; sourceTree = "<group>"; };
+		192B4C4335DC85D3FD23D1CC9FE51DE8 /* Pods-NyTimesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NyTimesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CB29162925DC94BC3303FD42F28D743 /* Pods-NyTimesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NyTimesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22B6AAC6BFB0A0502A33055E8BF5C02B /* libFCAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFCAlertView.a; path = libFCAlertView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		234F6760171D4680A6718A4A8C526F4B /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
+		29E4CD82A1C77E04E92198707B5B746D /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYImage/YYFrameImage.h; sourceTree = "<group>"; };
+		2C36B277F656A15B86E084E39502A505 /* YYImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYImage-dummy.m"; sourceTree = "<group>"; };
+		31250937A684F6A711AC68794CC9BB94 /* libPods-NyTimesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NyTimesUITests.a"; path = "libPods-NyTimesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331C6937799BC0C40070F55551AA4EFE /* YYWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageOperation.h; path = YYWebImage/YYWebImageOperation.h; sourceTree = "<group>"; };
+		3924418ED8D88E8ECC5885FA80B62768 /* YYWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageManager.m; path = YYWebImage/YYWebImageManager.m; sourceTree = "<group>"; };
+		39AA14D5C139D063AE65CADB39B2EADC /* libPods-NyTimes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NyTimes.a"; path = "libPods-NyTimes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B777C3E35A566CA25F14DF7623DC354 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		3EB3A31D83B575F2EBC2143370AD67DA /* libYYWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYWebImage.a; path = libYYWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C313EE08982F54811F42C6BA89096F /* FCAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCAlertView.xcconfig; sourceTree = "<group>"; };
+		432EA2AF7DFD28FD63482C414CA872BD /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
+		44AD189A79C688FBA6CC068CC2D4947B /* YYImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCoder.h; path = YYImage/YYImageCoder.h; sourceTree = "<group>"; };
+		44DEF5B6BAACEB351FC4BEEE3B72FE71 /* Pods-NyTimes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NyTimes-acknowledgements.plist"; sourceTree = "<group>"; };
+		46891AC33DA378BB4EB656B2177BBAD3 /* ResourceBundle-FCAlertView-FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCAlertView-FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		4885F7191E53CB290E6DB8497FFD9A2E /* libYYImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYImage.a; path = libYYImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1C984EEA16D17197D9614DBEBA1165 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		4CDC172B84DA9A0F85495B17EB648829 /* Pods-NyTimesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D2A31C3488AE38AE32B4A1F31065415 /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYWebImage/YYWebImageManager.h; sourceTree = "<group>"; };
+		4DE80F3551D11F0266F88326C4E3906E /* libPods-NyTimesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NyTimesTests.a"; path = "libPods-NyTimesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4C06118562432D507AB0D99EDAAA05 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YYWebImage.m"; path = "YYWebImage/Categories/UIButton+YYWebImage.m"; sourceTree = "<group>"; };
+		530D876D3FD291448E27E5D7DC8AC678 /* Pods-NyTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimes.debug.xcconfig"; sourceTree = "<group>"; };
+		55E9990A16759ACC540ACAD374838999 /* libYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYCache.a; path = libYYCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		562BCD3C5E3FA9F4AF61FAA4D15CC0E2 /* Pods-NyTimesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NyTimesUITests-dummy.m"; sourceTree = "<group>"; };
+		57395215458B328B765673E7AFF65372 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		58D023929CBB4D60D109D4030396D023 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
+		5B2256B821A6F76392A6B9C57DFCA3C3 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAnimatedImageView.h; path = YYImage/YYAnimatedImageView.h; sourceTree = "<group>"; };
+		6AF1B1705F7D395CF7A087B021F6DC8B /* MKAnnotationView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+YYWebImage.m"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.m"; sourceTree = "<group>"; };
+		6C138BDB0BADE468366B9474E8CB1FE0 /* Pods-NyTimes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NyTimes-resources.sh"; sourceTree = "<group>"; };
+		6D5D16DB09E9E529A0820448063034C0 /* FCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCAlertView.bundle; path = "FCAlertView-FCAlertView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F461EDC8A52E88250F7B18A0E2EB4F6 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYWebImage/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
+		754F6FBF29F69417C413A93A4AB13C03 /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+YYWebImage.h"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
+		7690E91BA0CC0976FB1B593397BA9A66 /* YYWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-prefix.pch"; sourceTree = "<group>"; };
+		793A8AFA667F2334167601DFA93E1785 /* _YYWebImageSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _YYWebImageSetter.h; path = YYWebImage/Categories/_YYWebImageSetter.h; sourceTree = "<group>"; };
+		7991E8CAEA6DD29D0C8C8B1C3F044472 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
+		7C4E03540B92DDF589CFC751547CEC74 /* close-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-round.png"; path = "FCAlertView/Assets/close-round.png"; sourceTree = "<group>"; };
+		7C7EEC89D5FFE507D4021918BD25C993 /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
+		7FB0747EDBA9E44AAD85DC03AE421330 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = FCAlertView/Assets/star.png; sourceTree = "<group>"; };
+		824A42389D1E30F02A034CEEC11EB49A /* YYFrameImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFrameImage.m; path = YYImage/YYFrameImage.m; sourceTree = "<group>"; };
+		86E796668E522C197C991A28D4ED465A /* YYWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYWebImage-dummy.m"; sourceTree = "<group>"; };
+		8C864503A19640259FC25AFE637D4C91 /* YYImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCache.m; path = YYWebImage/YYImageCache.m; sourceTree = "<group>"; };
+		903D97A7C1D74B6C777F87622292E0CE /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YYWebImage.h"; path = "YYWebImage/Categories/UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
+		90F22AFC3AC70A466347206FC8A9B760 /* YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImage.h; path = YYWebImage/YYWebImage.h; sourceTree = "<group>"; };
+		9524FC54F9B76CF7CAD69F1EF5D42941 /* YYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImage.m; path = YYImage/YYImage.m; sourceTree = "<group>"; };
+		99B00E165C8CB7261CF0FE65B73D0AAC /* Pods-NyTimes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NyTimes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CF97F1B20F1E6D1374107178C1865AD /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYWebImage/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9F5061964A92B33EC379ADBDC25F19 /* YYImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-prefix.pch"; sourceTree = "<group>"; };
-		A22C5C2DC1C2CEAB4C3F026F20E06DBD /* YYImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYImage.xcconfig; sourceTree = "<group>"; };
-		A737367D9C4D533493D0BE20AB530E9F /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YYWebImage.h"; path = "YYWebImage/Categories/UIButton+YYWebImage.h"; sourceTree = "<group>"; };
-		B47FED08A743CF1671003332F8AD13B0 /* Pods-NyTimesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NyTimesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB9CC6E860506CCFE591FB3A75DA06E8 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
-		BB9DA2F2C9876A178B9BB7394905DF99 /* YYWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-prefix.pch"; sourceTree = "<group>"; };
-		C7554B96E998174B09465E690204D87D /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSpriteSheetImage.h; path = YYImage/YYSpriteSheetImage.h; sourceTree = "<group>"; };
-		CAE4F628C0D140B8500729C1B4A50745 /* MKAnnotationView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+YYWebImage.m"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.m"; sourceTree = "<group>"; };
-		CBD1ABC84B252F983D02A2BFF6DC0C5C /* libPods-NyTimes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NyTimes.a"; path = "libPods-NyTimes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D55CF470CF0B770EAF00EF350E5571B1 /* Pods-NyTimesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D5B419035C6B29656F74676583889710 /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YYWebImage.h"; path = "YYWebImage/Categories/UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
-		E1C082FFB0AFF2621129AFDECF4EA2F4 /* YYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImage.h; path = YYImage/YYImage.h; sourceTree = "<group>"; };
-		E51E0F584E5C8E3569704190EA60FD55 /* YYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImage.m; path = YYImage/YYImage.m; sourceTree = "<group>"; };
-		E8C5C0FB6B400693AF74E60B614D4174 /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYWebImage.m"; path = "YYWebImage/Categories/UIImage+YYWebImage.m"; sourceTree = "<group>"; };
-		E974DE7640C93194FFEC73A23F402C32 /* libPods-NyTimesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NyTimesTests.a"; path = "libPods-NyTimesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E98BD0F288709F0764E60EE598166FD2 /* Pods-NyTimes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NyTimes-dummy.m"; sourceTree = "<group>"; };
-		ED1481404964D94CE84336146489E301 /* _YYWebImageSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _YYWebImageSetter.h; path = YYWebImage/Categories/_YYWebImageSetter.h; sourceTree = "<group>"; };
-		F467BE4A8E7CE1A5822078B12ECF3891 /* Pods-NyTimesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NyTimesTests-dummy.m"; sourceTree = "<group>"; };
-		F6A76399E7AAED01438C01DD29E15192 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
-		F90E4514698254586F858F0E58579150 /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYImage/YYFrameImage.h; sourceTree = "<group>"; };
-		FEA82A6A0F53B1A8F2E4EA667B0FD5E6 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
-		FEFDA3627825F62D447042E7DA03A378 /* Pods-NyTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimes.release.xcconfig"; sourceTree = "<group>"; };
-		FFBE456D558F894FAD1AFFBA1786B6FC /* Pods-NyTimesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NyTimesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E810C031E658E8B63D7CD9E9AF3D154 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYImage/YYImageCoder.m; sourceTree = "<group>"; };
+		A54E4CBEEDB46ABA712456D970B56B52 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		AC9755D07C7FD438F92B8831B850BEBF /* Pods-NyTimesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NyTimesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B714C2DF1B1ECB2490068D5B6CC98EDD /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YYWebImage.h"; path = "YYWebImage/Categories/UIButton+YYWebImage.h"; sourceTree = "<group>"; };
+		BB6D6A693F854684978DADC514AC108C /* _YYWebImageSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _YYWebImageSetter.m; path = YYWebImage/Categories/_YYWebImageSetter.m; sourceTree = "<group>"; };
+		BD0A0C480A239E496FF8D2B696EF3B59 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
+		BDBBA1D9782654D3F8B60A2093849D24 /* FCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCAlertView.h; path = FCAlertView/Classes/FCAlertView.h; sourceTree = "<group>"; };
+		BFD76B701796240CC56846F216DE66C6 /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYWebImage.m"; path = "YYWebImage/Categories/UIImage+YYWebImage.m"; sourceTree = "<group>"; };
+		C14D496E871CCB0849A769FDFE98150B /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
+		C2ECB6671F53F954FB290931CE997CBB /* Pods-NyTimesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4A57D6FB19AA0F7819E20CE2D99B2FB /* Pods-NyTimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4CD280A5368D9D2CABE6EB21AEB8EF1 /* YYImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-prefix.pch"; sourceTree = "<group>"; };
+		C7C5712790517AF2251155EBD95D0039 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
+		CC21E3ABBCA04C1A2F425EB040803A2B /* Pods-NyTimesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NyTimesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE89399C065C1959C184BF61E6967E7C /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSpriteSheetImage.h; path = YYImage/YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		D310F5EAA2F828F759F9608577227908 /* Pods-NyTimesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NyTimesTests-dummy.m"; sourceTree = "<group>"; };
+		D8807956DCE1E862C864FFFB682E7C4C /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYWebImage/YYWebImageOperation.m; sourceTree = "<group>"; };
+		DC7D0D9422E9E363D21D55AE0F4A57DB /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYWebImage.h"; path = "YYWebImage/Categories/UIImage+YYWebImage.h"; sourceTree = "<group>"; };
+		DCFBAC4FE3E7B978E00A04581525DB66 /* Pods-NyTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4174AB1B10A711B7C1E20025CFE97FF /* YYWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYWebImage.xcconfig; sourceTree = "<group>"; };
+		EAF20ED8E514E8D96F5A1F17836159B7 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
+		EC9E77E1829303A21C09B2D6F8D7A147 /* FCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCAlertView.m; path = FCAlertView/Classes/FCAlertView.m; sourceTree = "<group>"; };
+		EF26289247D0BC43E33FF968C2F3B92F /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSpriteSheetImage.m; path = YYImage/YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		F03835AB3BEB49E22E9A531CD2BF27DD /* Pods-NyTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NyTimes.release.xcconfig"; sourceTree = "<group>"; };
+		F165200CF901C50889FE98E114627094 /* FCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCAlertView-dummy.m"; sourceTree = "<group>"; };
+		F1F89AC5F29CA666C49F82D814CD2A0D /* YYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImage.h; path = YYImage/YYImage.h; sourceTree = "<group>"; };
+		FD3DB0DE0578B7357F2070FCD153C3BE /* FCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		FE24A9668BF6C319F58C2D622DA1746D /* Pods-NyTimes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NyTimes-dummy.m"; sourceTree = "<group>"; };
+		FE5DF30C9EBE7686ACBA75B272F62D12 /* alert-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alert-round.png"; path = "FCAlertView/Assets/alert-round.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D27A1BCA366F3996B42FDA4D09D8512 /* Frameworks */ = {
+		55D544941BB1C92CB30D3E40E19D2AE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FDD526EB66645A014E512BA237899D6 /* Frameworks */ = {
+		7BD750D88F8DE725FD48753D22185C26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,7 +233,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C510C74EB9EBE119CF334EAC7E16BC4C /* Frameworks */ = {
+		849A2CFD2ED6220293BEC4157498917B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70223987729D12F6D9559959E4DF51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC91BB3611E774029E704B42814E51B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45EBF15CFDC7771100D406745CD1B82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,157 +268,171 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA513C4C5EE81B40874C20E11547D5A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25482891278414D26BF40D1D14F31381 /* Pods-NyTimesUITests */ = {
+		0A8B3220CF1F683B663DC60506FB2ED1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B47FED08A743CF1671003332F8AD13B0 /* Pods-NyTimesUITests-acknowledgements.markdown */,
-				8884C3FA653184830D0C4B7EE6DDCA6B /* Pods-NyTimesUITests-acknowledgements.plist */,
-				810203131C4289DCEDC102EBD2163C74 /* Pods-NyTimesUITests-dummy.m */,
-				360EB5B0EAAA46B8F55D879440827AE9 /* Pods-NyTimesUITests.debug.xcconfig */,
-				D55CF470CF0B770EAF00EF350E5571B1 /* Pods-NyTimesUITests.release.xcconfig */,
+				432EA2AF7DFD28FD63482C414CA872BD /* YYCache.xcconfig */,
+				4A1C984EEA16D17197D9614DBEBA1165 /* YYCache-dummy.m */,
+				C14D496E871CCB0849A769FDFE98150B /* YYCache-prefix.pch */,
 			);
-			name = "Pods-NyTimesUITests";
-			path = "Target Support Files/Pods-NyTimesUITests";
+			name = "Support Files";
+			path = "../Target Support Files/YYCache";
 			sourceTree = "<group>";
 		};
-		375EB6A5863F411CEAB2ACA8AC9F8F2B /* Targets Support Files */ = {
+		0FC78786B1058E9BA268C30021BA9618 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7D11053A109D804A66283BDF089BD209 /* Pods-NyTimes */,
-				CA550E67F2D3F5101EE6F8976EC79E2B /* Pods-NyTimesTests */,
-				25482891278414D26BF40D1D14F31381 /* Pods-NyTimesUITests */,
+				FE5DF30C9EBE7686ACBA75B272F62D12 /* alert-round.png */,
+				0FA9FC8B3BD29C910F1CBC72C073B26C /* checkmark-round.png */,
+				7C4E03540B92DDF589CFC751547CEC74 /* close-round.png */,
+				58D023929CBB4D60D109D4030396D023 /* heart.png */,
+				7FB0747EDBA9E44AAD85DC03AE421330 /* star.png */,
 			);
-			name = "Targets Support Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		462752985BA71CF0F80347938546B739 /* YYWebImage */ = {
+		1E9069C21E823DC649B08130FFE1CD51 /* Pods-NyTimes */ = {
 			isa = PBXGroup;
 			children = (
-				ED1481404964D94CE84336146489E301 /* _YYWebImageSetter.h */,
-				5216DA326D7ECEAB6DC359F92E571050 /* _YYWebImageSetter.m */,
-				3F9E5E398C5CB124951D13FD483C77D0 /* CALayer+YYWebImage.h */,
-				253207CE0A85A138FA1FD06D8515CBAD /* CALayer+YYWebImage.m */,
-				331C579AEF7AB71A76D241AE17F9C8A7 /* MKAnnotationView+YYWebImage.h */,
-				CAE4F628C0D140B8500729C1B4A50745 /* MKAnnotationView+YYWebImage.m */,
-				A737367D9C4D533493D0BE20AB530E9F /* UIButton+YYWebImage.h */,
-				2246A7FC68D95A4AE3EB5F78BA10EC38 /* UIButton+YYWebImage.m */,
-				9866D74AF0D6419E13701845156D8618 /* UIImage+YYWebImage.h */,
-				E8C5C0FB6B400693AF74E60B614D4174 /* UIImage+YYWebImage.m */,
-				D5B419035C6B29656F74676583889710 /* UIImageView+YYWebImage.h */,
-				360F14350E5FB339CCF417EA02707BED /* UIImageView+YYWebImage.m */,
-				0923B16CC0A8C766853728FFBE305F51 /* YYImageCache.h */,
-				331F530F7767BA4F76C64D338FC92CDF /* YYImageCache.m */,
-				7979DBD9B77BC4039235AFF5892D1E85 /* YYWebImage.h */,
-				1197BE236F8347AFCC354C9D3769833C /* YYWebImageManager.h */,
-				211E7B28039AB8EEF183ADD18D98B8B0 /* YYWebImageManager.m */,
-				67D1F5CCA5418294537E63A7AB4D865C /* YYWebImageOperation.h */,
-				9CA46045D1A74498A401CD6CA6A371FB /* YYWebImageOperation.m */,
-				86C5D1A4D84F010AFDAFC424BAF43262 /* Support Files */,
-			);
-			name = YYWebImage;
-			path = YYWebImage;
-			sourceTree = "<group>";
-		};
-		78700914E3C1F75E5214CE31A247F054 /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-				843D68E429582EA8536088CB9096FB0D /* Core */,
-				80AA35943054106481CE526A01565A93 /* Support Files */,
-			);
-			name = YYImage;
-			path = YYImage;
-			sourceTree = "<group>";
-		};
-		7D11053A109D804A66283BDF089BD209 /* Pods-NyTimes */ = {
-			isa = PBXGroup;
-			children = (
-				683F42E0F99486CEAF90341D1D6B1316 /* Pods-NyTimes-acknowledgements.markdown */,
-				60679B5CF869A88EF8D1F18420287B47 /* Pods-NyTimes-acknowledgements.plist */,
-				E98BD0F288709F0764E60EE598166FD2 /* Pods-NyTimes-dummy.m */,
-				20343A933C2739242A542EB43BD07A7E /* Pods-NyTimes.debug.xcconfig */,
-				FEFDA3627825F62D447042E7DA03A378 /* Pods-NyTimes.release.xcconfig */,
+				99B00E165C8CB7261CF0FE65B73D0AAC /* Pods-NyTimes-acknowledgements.markdown */,
+				44DEF5B6BAACEB351FC4BEEE3B72FE71 /* Pods-NyTimes-acknowledgements.plist */,
+				FE24A9668BF6C319F58C2D622DA1746D /* Pods-NyTimes-dummy.m */,
+				6C138BDB0BADE468366B9474E8CB1FE0 /* Pods-NyTimes-resources.sh */,
+				530D876D3FD291448E27E5D7DC8AC678 /* Pods-NyTimes.debug.xcconfig */,
+				F03835AB3BEB49E22E9A531CD2BF27DD /* Pods-NyTimes.release.xcconfig */,
 			);
 			name = "Pods-NyTimes";
 			path = "Target Support Files/Pods-NyTimes";
 			sourceTree = "<group>";
 		};
-		80AA35943054106481CE526A01565A93 /* Support Files */ = {
+		2976856275A4014937D4CE05F79E6DB4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A22C5C2DC1C2CEAB4C3F026F20E06DBD /* YYImage.xcconfig */,
-				0A9ECA50EA1F4F35BAFFF60C60469C6B /* YYImage-dummy.m */,
-				9D9F5061964A92B33EC379ADBDC25F19 /* YYImage-prefix.pch */,
+				091A7C7427EB628DF599D65382438FB2 /* YYImage.xcconfig */,
+				2C36B277F656A15B86E084E39502A505 /* YYImage-dummy.m */,
+				C4CD280A5368D9D2CABE6EB21AEB8EF1 /* YYImage-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YYImage";
 			sourceTree = "<group>";
 		};
-		843D68E429582EA8536088CB9096FB0D /* Core */ = {
+		34B7CC40AE23987AF5C1BDE330881022 /* YYCache */ = {
 			isa = PBXGroup;
 			children = (
-				0BBE9C96B752D432BF8401335C2E1FE4 /* YYAnimatedImageView.h */,
-				138E19C8C4B41B1AE88DC9716802B934 /* YYAnimatedImageView.m */,
-				F90E4514698254586F858F0E58579150 /* YYFrameImage.h */,
-				45807DB34583340D2C0CE5BCCFFD0E08 /* YYFrameImage.m */,
-				E1C082FFB0AFF2621129AFDECF4EA2F4 /* YYImage.h */,
-				E51E0F584E5C8E3569704190EA60FD55 /* YYImage.m */,
-				5C8F84502F3BD49BF4369CA0787F539D /* YYImageCoder.h */,
-				20EF27A796C3302C995CDB81EDD0AA2C /* YYImageCoder.m */,
-				C7554B96E998174B09465E690204D87D /* YYSpriteSheetImage.h */,
-				6D97BBF5FA8D2DC17376ED007D69CD85 /* YYSpriteSheetImage.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		86C5D1A4D84F010AFDAFC424BAF43262 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6730D667DAE25332981930E1AE020D29 /* YYWebImage.xcconfig */,
-				281DC8898749EDDEDBBA20CA016B7677 /* YYWebImage-dummy.m */,
-				BB9DA2F2C9876A178B9BB7394905DF99 /* YYWebImage-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YYWebImage";
-			sourceTree = "<group>";
-		};
-		CA550E67F2D3F5101EE6F8976EC79E2B /* Pods-NyTimesTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E1261C974BDFE21362069E3B89C07DA /* Pods-NyTimesTests-acknowledgements.markdown */,
-				FFBE456D558F894FAD1AFFBA1786B6FC /* Pods-NyTimesTests-acknowledgements.plist */,
-				F467BE4A8E7CE1A5822078B12ECF3891 /* Pods-NyTimesTests-dummy.m */,
-				712604238BA37D027F270F13EB56B475 /* Pods-NyTimesTests.debug.xcconfig */,
-				91032C1A49D64F0FF2FA0A9550EC654E /* Pods-NyTimesTests.release.xcconfig */,
-			);
-			name = "Pods-NyTimesTests";
-			path = "Target Support Files/Pods-NyTimesTests";
-			sourceTree = "<group>";
-		};
-		CEDE44BED0FCBC46D145EE3B83CF6703 /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-				6757A34C22E60774751883D4D1733199 /* YYCache.h */,
-				2E523CC4D8C780E90A5AE40F8170E26C /* YYCache.m */,
-				F6A76399E7AAED01438C01DD29E15192 /* YYDiskCache.h */,
-				5E1DC8CB70A41BD9C30A95FB4F89C22C /* YYDiskCache.m */,
-				70C9AAFA6BAD98A0A472C04A778BDED5 /* YYKVStorage.h */,
-				4DAFA8F980F2231E7CA6D216CD6F6A1F /* YYKVStorage.m */,
-				BB9CC6E860506CCFE591FB3A75DA06E8 /* YYMemoryCache.h */,
-				687726B3F06C66F184683EE3CED85A54 /* YYMemoryCache.m */,
-				FEA18C9801BEA6D489DBE81A7420B6CB /* Support Files */,
+				0DE01F6A73729FCF348B59B681B2933B /* YYCache.h */,
+				7991E8CAEA6DD29D0C8C8B1C3F044472 /* YYCache.m */,
+				BD0A0C480A239E496FF8D2B696EF3B59 /* YYDiskCache.h */,
+				57395215458B328B765673E7AFF65372 /* YYDiskCache.m */,
+				A54E4CBEEDB46ABA712456D970B56B52 /* YYKVStorage.h */,
+				EAF20ED8E514E8D96F5A1F17836159B7 /* YYKVStorage.m */,
+				3B777C3E35A566CA25F14DF7623DC354 /* YYMemoryCache.h */,
+				234F6760171D4680A6718A4A8C526F4B /* YYMemoryCache.m */,
+				0A8B3220CF1F683B663DC60506FB2ED1 /* Support Files */,
 			);
 			name = YYCache;
 			path = YYCache;
+			sourceTree = "<group>";
+		};
+		398EAFE75682ED47A0173060B7AE9EF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C313EE08982F54811F42C6BA89096F /* FCAlertView.xcconfig */,
+				F165200CF901C50889FE98E114627094 /* FCAlertView-dummy.m */,
+				FD3DB0DE0578B7357F2070FCD153C3BE /* FCAlertView-prefix.pch */,
+				46891AC33DA378BB4EB656B2177BBAD3 /* ResourceBundle-FCAlertView-FCAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCAlertView";
+			sourceTree = "<group>";
+		};
+		3FCFF3B77D884ADCC0863B08B7560269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB54B1ED422E17C04BEB5F86435F2766 /* FCAlertView */,
+				34B7CC40AE23987AF5C1BDE330881022 /* YYCache */,
+				B25A00F55BC2063E3F17DE0F40A3AC2C /* YYImage */,
+				403712A86F853D7601212E36A8D17E7F /* YYWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		403712A86F853D7601212E36A8D17E7F /* YYWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				793A8AFA667F2334167601DFA93E1785 /* _YYWebImageSetter.h */,
+				BB6D6A693F854684978DADC514AC108C /* _YYWebImageSetter.m */,
+				9CF97F1B20F1E6D1374107178C1865AD /* CALayer+YYWebImage.h */,
+				6F461EDC8A52E88250F7B18A0E2EB4F6 /* CALayer+YYWebImage.m */,
+				754F6FBF29F69417C413A93A4AB13C03 /* MKAnnotationView+YYWebImage.h */,
+				6AF1B1705F7D395CF7A087B021F6DC8B /* MKAnnotationView+YYWebImage.m */,
+				B714C2DF1B1ECB2490068D5B6CC98EDD /* UIButton+YYWebImage.h */,
+				4F4C06118562432D507AB0D99EDAAA05 /* UIButton+YYWebImage.m */,
+				DC7D0D9422E9E363D21D55AE0F4A57DB /* UIImage+YYWebImage.h */,
+				BFD76B701796240CC56846F216DE66C6 /* UIImage+YYWebImage.m */,
+				903D97A7C1D74B6C777F87622292E0CE /* UIImageView+YYWebImage.h */,
+				0A331169B5BBB33420CF69CA0376A113 /* UIImageView+YYWebImage.m */,
+				7C7EEC89D5FFE507D4021918BD25C993 /* YYImageCache.h */,
+				8C864503A19640259FC25AFE637D4C91 /* YYImageCache.m */,
+				90F22AFC3AC70A466347206FC8A9B760 /* YYWebImage.h */,
+				4D2A31C3488AE38AE32B4A1F31065415 /* YYWebImageManager.h */,
+				3924418ED8D88E8ECC5885FA80B62768 /* YYWebImageManager.m */,
+				331C6937799BC0C40070F55551AA4EFE /* YYWebImageOperation.h */,
+				D8807956DCE1E862C864FFFB682E7C4C /* YYWebImageOperation.m */,
+				D687D0C5DF31F82A35227133B2F60481 /* Support Files */,
+			);
+			name = YYWebImage;
+			path = YYWebImage;
+			sourceTree = "<group>";
+		};
+		ABE53B621C091D1115F992878B6E5316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D16DB09E9E529A0820448063034C0 /* FCAlertView.bundle */,
+				22B6AAC6BFB0A0502A33055E8BF5C02B /* libFCAlertView.a */,
+				39AA14D5C139D063AE65CADB39B2EADC /* libPods-NyTimes.a */,
+				4DE80F3551D11F0266F88326C4E3906E /* libPods-NyTimesTests.a */,
+				31250937A684F6A711AC68794CC9BB94 /* libPods-NyTimesUITests.a */,
+				55E9990A16759ACC540ACAD374838999 /* libYYCache.a */,
+				4885F7191E53CB290E6DB8497FFD9A2E /* libYYImage.a */,
+				3EB3A31D83B575F2EBC2143370AD67DA /* libYYWebImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25A00F55BC2063E3F17DE0F40A3AC2C /* YYImage */ = {
+			isa = PBXGroup;
+			children = (
+				D581F848263D840400D0BBD5CFFA0945 /* Core */,
+				2976856275A4014937D4CE05F79E6DB4 /* Support Files */,
+			);
+			name = YYImage;
+			path = YYImage;
+			sourceTree = "<group>";
+		};
+		B340DF05AC48C6CB955443F2263E274B /* Pods-NyTimesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB29162925DC94BC3303FD42F28D743 /* Pods-NyTimesUITests-acknowledgements.markdown */,
+				192B4C4335DC85D3FD23D1CC9FE51DE8 /* Pods-NyTimesUITests-acknowledgements.plist */,
+				562BCD3C5E3FA9F4AF61FAA4D15CC0E2 /* Pods-NyTimesUITests-dummy.m */,
+				4CDC172B84DA9A0F85495B17EB648829 /* Pods-NyTimesUITests.debug.xcconfig */,
+				C2ECB6671F53F954FB290931CE997CBB /* Pods-NyTimesUITests.release.xcconfig */,
+			);
+			name = "Pods-NyTimesUITests";
+			path = "Target Support Files/Pods-NyTimesUITests";
+			sourceTree = "<group>";
+		};
+		C601FDB12593A63D0B4ED62A2876E71E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E9069C21E823DC649B08130FFE1CD51 /* Pods-NyTimes */,
+				FB4611A8093EA1372CB536BAE439107C /* Pods-NyTimesTests */,
+				B340DF05AC48C6CB955443F2263E274B /* Pods-NyTimesUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -369,23 +440,38 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				FC245D0D6439743884D20FB8175242B1 /* Pods */,
-				D7468F9390803B5A786EC36E6649961B /* Products */,
-				375EB6A5863F411CEAB2ACA8AC9F8F2B /* Targets Support Files */,
+				3FCFF3B77D884ADCC0863B08B7560269 /* Pods */,
+				ABE53B621C091D1115F992878B6E5316 /* Products */,
+				C601FDB12593A63D0B4ED62A2876E71E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D7468F9390803B5A786EC36E6649961B /* Products */ = {
+		D581F848263D840400D0BBD5CFFA0945 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CBD1ABC84B252F983D02A2BFF6DC0C5C /* libPods-NyTimes.a */,
-				E974DE7640C93194FFEC73A23F402C32 /* libPods-NyTimesTests.a */,
-				170BD821E542E1C1792B963CC15EDE33 /* libPods-NyTimesUITests.a */,
-				24F774A5CA2EAF74D932CAEE49B53E81 /* libYYCache.a */,
-				0E0E0D8161E06C72C0A0DAF4D66A6215 /* libYYImage.a */,
-				127570A9F93F8EE737D761B763A451A6 /* libYYWebImage.a */,
+				5B2256B821A6F76392A6B9C57DFCA3C3 /* YYAnimatedImageView.h */,
+				C7C5712790517AF2251155EBD95D0039 /* YYAnimatedImageView.m */,
+				29E4CD82A1C77E04E92198707B5B746D /* YYFrameImage.h */,
+				824A42389D1E30F02A034CEEC11EB49A /* YYFrameImage.m */,
+				F1F89AC5F29CA666C49F82D814CD2A0D /* YYImage.h */,
+				9524FC54F9B76CF7CAD69F1EF5D42941 /* YYImage.m */,
+				44AD189A79C688FBA6CC068CC2D4947B /* YYImageCoder.h */,
+				9E810C031E658E8B63D7CD9E9AF3D154 /* YYImageCoder.m */,
+				CE89399C065C1959C184BF61E6967E7C /* YYSpriteSheetImage.h */,
+				EF26289247D0BC43E33FF968C2F3B92F /* YYSpriteSheetImage.m */,
 			);
-			name = Products;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D687D0C5DF31F82A35227133B2F60481 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4174AB1B10A711B7C1E20025CFE97FF /* YYWebImage.xcconfig */,
+				86E796668E522C197C991A28D4ED465A /* YYWebImage-dummy.m */,
+				7690E91BA0CC0976FB1B593397BA9A66 /* YYWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYWebImage";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -395,50 +481,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC245D0D6439743884D20FB8175242B1 /* Pods */ = {
+		EB54B1ED422E17C04BEB5F86435F2766 /* FCAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				CEDE44BED0FCBC46D145EE3B83CF6703 /* YYCache */,
-				78700914E3C1F75E5214CE31A247F054 /* YYImage */,
-				462752985BA71CF0F80347938546B739 /* YYWebImage */,
+				BDBBA1D9782654D3F8B60A2093849D24 /* FCAlertView.h */,
+				EC9E77E1829303A21C09B2D6F8D7A147 /* FCAlertView.m */,
+				0FC78786B1058E9BA268C30021BA9618 /* Resources */,
+				398EAFE75682ED47A0173060B7AE9EF5 /* Support Files */,
 			);
-			name = Pods;
+			name = FCAlertView;
+			path = FCAlertView;
 			sourceTree = "<group>";
 		};
-		FEA18C9801BEA6D489DBE81A7420B6CB /* Support Files */ = {
+		FB4611A8093EA1372CB536BAE439107C /* Pods-NyTimesTests */ = {
 			isa = PBXGroup;
 			children = (
-				346BC8B7B61117311C50358E8A620EBE /* YYCache.xcconfig */,
-				8261AB92D3F268E7218DDFD6FB7F2C08 /* YYCache-dummy.m */,
-				FEA82A6A0F53B1A8F2E4EA667B0FD5E6 /* YYCache-prefix.pch */,
+				CC21E3ABBCA04C1A2F425EB040803A2B /* Pods-NyTimesTests-acknowledgements.markdown */,
+				AC9755D07C7FD438F92B8831B850BEBF /* Pods-NyTimesTests-acknowledgements.plist */,
+				D310F5EAA2F828F759F9608577227908 /* Pods-NyTimesTests-dummy.m */,
+				C4A57D6FB19AA0F7819E20CE2D99B2FB /* Pods-NyTimesTests.debug.xcconfig */,
+				DCFBAC4FE3E7B978E00A04581525DB66 /* Pods-NyTimesTests.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/YYCache";
+			name = "Pods-NyTimesTests";
+			path = "Target Support Files/Pods-NyTimesTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2AD4934F5E3EFFC5DC6E678971DB7F1D /* Headers */ = {
+		4BAF7818A297622E4392A71F42E88DB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56A286EAC56C8BB2EC7A94A801FF2913 /* YYAnimatedImageView.h in Headers */,
-				E956F67DF557EB6EFFE8622E397931FA /* YYFrameImage.h in Headers */,
-				3D5222813E5C9773A91849B2C08BEAC8 /* YYImage.h in Headers */,
-				80F658AABD6C176FF3B2B4B4EF2A7195 /* YYImageCoder.h in Headers */,
-				25610A37B8846C3BA53F15F23F11B8DB /* YYSpriteSheetImage.h in Headers */,
+				8C86BDC8817D4B20EE78903B7E1FDCAC /* _YYWebImageSetter.h in Headers */,
+				E887EA459C70EA1E81386F95EA34A741 /* CALayer+YYWebImage.h in Headers */,
+				011236224D05904A9DCD21B2F5E829E0 /* MKAnnotationView+YYWebImage.h in Headers */,
+				222927DA8C6BC2184A5C0A638D6BE99B /* UIButton+YYWebImage.h in Headers */,
+				6D062A344FCC6619F892EA3663AF5090 /* UIImage+YYWebImage.h in Headers */,
+				0D8C13CD6D8FEC1CD7B42F8EDE9069F9 /* UIImageView+YYWebImage.h in Headers */,
+				70F0435CD7B2F36475447A24FEC81E1E /* YYImageCache.h in Headers */,
+				7D57EBBE4FF26D49FBAE32341E0A6C98 /* YYWebImage.h in Headers */,
+				7DCBFF2ECBDC3CBA53CC9146656D0DB4 /* YYWebImageManager.h in Headers */,
+				38F2E1FB3B65D8A404B12D92AEEE765D /* YYWebImageOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D17C7CA3409440F8C2A5910F95CD131 /* Headers */ = {
+		4C603936E762BA39DEADB74A71ACD3EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EB9260EF202C5B57A7B95FF7F38164 /* YYCache.h in Headers */,
-				AD9CA34D05F6E306409B0F92F774A639 /* YYDiskCache.h in Headers */,
-				567B74D6E8275510FE40FAFEEC913413 /* YYKVStorage.h in Headers */,
-				F32D1EF70AEBBFF5DAE8EEE21F409BAB /* YYMemoryCache.h in Headers */,
+				56D2FBF5C6D8CA61EF9A2D93C0B0C176 /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D861E784420BC30B7D56ED55BFE2EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C133023ADE2E8C2E680D121D71D444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F529EE48EE79D1E6BEF208EA3DB13DC0 /* YYAnimatedImageView.h in Headers */,
+				5053F92B88A86EFEC72CBCFCA7D9B63E /* YYFrameImage.h in Headers */,
+				C371213BBA02F2F5499184C8B2A7560A /* YYImage.h in Headers */,
+				76B149D67E32567532A056A6AF140659 /* YYImageCoder.h in Headers */,
+				5343DE662566F422ACB727ECD350E29B /* YYSpriteSheetImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,33 +567,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E288D0747803A674432495012E00E1E3 /* Headers */ = {
+		C6ACAB5D616038DF9E45515937243E3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46EE27F86480FD6A417F39B7C4CCEC9 /* _YYWebImageSetter.h in Headers */,
-				CFE974AE831CA14B13BF3DFEBCAEDB63 /* CALayer+YYWebImage.h in Headers */,
-				24CF8A66C481BBFA42F5E2AF60D6291E /* MKAnnotationView+YYWebImage.h in Headers */,
-				B7B360484E6F63A364D334E136ED954D /* UIButton+YYWebImage.h in Headers */,
-				CF1BE36C9D2D77184124C9442EAFA617 /* UIImage+YYWebImage.h in Headers */,
-				38B577B38CB1DA4C6D441FCF3B069124 /* UIImageView+YYWebImage.h in Headers */,
-				E64072242080B7157A83D7CEA0013D7B /* YYImageCache.h in Headers */,
-				32704F520AA60708A9CAA475DFB42000 /* YYWebImage.h in Headers */,
-				1F388B2B0031170DA3DA8CD1EB7EAA2A /* YYWebImageManager.h in Headers */,
-				79DBD6AD71A15E984B855B033DA95B11 /* YYWebImageOperation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F514E71FD9B8CD6BCD07FC3635DE8E68 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				10570C85FCF81E861926692EE143EAA7 /* YYCache.h in Headers */,
+				6D39031989BC4E9791EE0F1EC6071E76 /* YYDiskCache.h in Headers */,
+				24FEF34CE2F24572BB5FA849C70B44CA /* YYKVStorage.h in Headers */,
+				AFF59E3B247F5B1C8B11CAE2D88AC42A /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1FDEA790C92F7BFA0717DB3EF4BF837E /* YYCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533668443B646DF3119B07064B0040A6 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildPhases = (
+				C6ACAB5D616038DF9E45515937243E3A /* Headers */,
+				D01E04C8F6B97C57C43C052FEF6E6C23 /* Sources */,
+				7BD750D88F8DE725FD48753D22185C26 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYCache;
+			productName = YYCache;
+			productReference = 55E9990A16759ACC540ACAD374838999 /* libYYCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		60B6876E30432683A50D6E214735242A /* YYImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5284525EBC212670079973876417DB07 /* Build configuration list for PBXNativeTarget "YYImage" */;
+			buildPhases = (
+				54C133023ADE2E8C2E680D121D71D444 /* Headers */,
+				0F3E1D34B571556BB761D58C8C8A15CB /* Sources */,
+				EC91BB3611E774029E704B42814E51B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYImage;
+			productName = YYImage;
+			productReference = 4885F7191E53CB290E6DB8497FFD9A2E /* libYYImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D257CBAF51A21D8F896342695BED602 /* Pods-NyTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4F126288D47C875AA07E1FCFF7DEBC /* Build configuration list for PBXNativeTarget "Pods-NyTimes" */;
+			buildPhases = (
+				51D861E784420BC30B7D56ED55BFE2EE /* Headers */,
+				083C735C36CEF014F420DFD265F07E24 /* Sources */,
+				F45EBF15CFDC7771100D406745CD1B82 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73179F50FAB978F1B51564B5D472C2E4 /* PBXTargetDependency */,
+				272783A3F8B15D7B05ABE47D38638CF9 /* PBXTargetDependency */,
+				633F0FE8AF38E1E9306AAA84AD750A20 /* PBXTargetDependency */,
+				18BADD31A92AD48D9387F63085AF48CF /* PBXTargetDependency */,
+			);
+			name = "Pods-NyTimes";
+			productName = "Pods-NyTimes";
+			productReference = 39AA14D5C139D063AE65CADB39B2EADC /* libPods-NyTimes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7F8EBAF56639FB73964C603C2F1DF930 /* FCAlertView-FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CEAB6B4D08F01B6F8C76845DE00FF2 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */;
+			buildPhases = (
+				BF1E6ABE37788FD21B67BF57F8C505AD /* Sources */,
+				849A2CFD2ED6220293BEC4157498917B /* Frameworks */,
+				C44E4944914CA70C473500551EE1BEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCAlertView-FCAlertView";
+			productName = "FCAlertView-FCAlertView";
+			productReference = 6D5D16DB09E9E529A0820448063034C0 /* FCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		8AB2DE2EBEE2652F7AF7B87D9910EE1E /* Pods-NyTimesTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8636A2D60D2C21FE51B36FD6C03F51A3 /* Build configuration list for PBXNativeTarget "Pods-NyTimesTests" */;
@@ -498,27 +668,7 @@
 			);
 			name = "Pods-NyTimesTests";
 			productName = "Pods-NyTimesTests";
-			productReference = E974DE7640C93194FFEC73A23F402C32 /* libPods-NyTimesTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8B69929C23A66C9DBDE08428FB5006E9 /* Pods-NyTimes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A960F727040B147DE30E32553E90240C /* Build configuration list for PBXNativeTarget "Pods-NyTimes" */;
-			buildPhases = (
-				F514E71FD9B8CD6BCD07FC3635DE8E68 /* Headers */,
-				89D6FFBCF3E1936C6281DD410783AA4A /* Sources */,
-				4D27A1BCA366F3996B42FDA4D09D8512 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46B394E43AC6AF3C6908483F1FA3C000 /* PBXTargetDependency */,
-				859A8B3003402D2184A531531D150EDD /* PBXTargetDependency */,
-				15E8FD4D7248517C6A3520D4182AA201 /* PBXTargetDependency */,
-			);
-			name = "Pods-NyTimes";
-			productName = "Pods-NyTimes";
-			productReference = CBD1ABC84B252F983D02A2BFF6DC0C5C /* libPods-NyTimes.a */;
+			productReference = 4DE80F3551D11F0266F88326C4E3906E /* libPods-NyTimesTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9768AB1D1005F1D6F959B3352D3D7444 /* Pods-NyTimesUITests */ = {
@@ -536,60 +686,44 @@
 			);
 			name = "Pods-NyTimesUITests";
 			productName = "Pods-NyTimesUITests";
-			productReference = 170BD821E542E1C1792B963CC15EDE33 /* libPods-NyTimesUITests.a */;
+			productReference = 31250937A684F6A711AC68794CC9BB94 /* libPods-NyTimesUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B7F55A52DE1DA6F7073CE55A268D6209 /* YYCache */ = {
+		BE86496BC63BE0729BA05C91AA9D37B8 /* FCAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F167C78AE256D971C2E6AFCAC87758A /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = 44E7526C66F71E909751AABED19B2647 /* Build configuration list for PBXNativeTarget "FCAlertView" */;
 			buildPhases = (
-				5D17C7CA3409440F8C2A5910F95CD131 /* Headers */,
-				86533A5CE99392347BFFCEF1E51C52F2 /* Sources */,
-				C510C74EB9EBE119CF334EAC7E16BC4C /* Frameworks */,
+				4C603936E762BA39DEADB74A71ACD3EB /* Headers */,
+				2606E83D037E8978992EBDD394B8BCB5 /* Sources */,
+				D70223987729D12F6D9559959E4DF51C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				39497212CD98ABB299CE387DDDBFEA13 /* PBXTargetDependency */,
 			);
-			name = YYCache;
-			productName = YYCache;
-			productReference = 24F774A5CA2EAF74D932CAEE49B53E81 /* libYYCache.a */;
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = 22B6AAC6BFB0A0502A33055E8BF5C02B /* libFCAlertView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BC5F588B7A2A741930B829D9A05F3336 /* YYWebImage */ = {
+		FD5B2DF7CD6AA53C20AD9657E318D6DC /* YYWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59563A7AA522BF6CF20703ACB0E42CCE /* Build configuration list for PBXNativeTarget "YYWebImage" */;
+			buildConfigurationList = D8657296E7721E1A134ACD5A277E8FFF /* Build configuration list for PBXNativeTarget "YYWebImage" */;
 			buildPhases = (
-				E288D0747803A674432495012E00E1E3 /* Headers */,
-				520F32771254239928E03D96296F4133 /* Sources */,
-				6FDD526EB66645A014E512BA237899D6 /* Frameworks */,
+				4BAF7818A297622E4392A71F42E88DB2 /* Headers */,
+				374F66FC295ADDF8D9084A5C8E8D24F7 /* Sources */,
+				55D544941BB1C92CB30D3E40E19D2AE0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BD1D585DBAEAA2329B1E0CD99450A2D /* PBXTargetDependency */,
-				C7FF8478CB2ABD953F246F9FC8B621E8 /* PBXTargetDependency */,
+				6345F090DC8EF945B4851DAB21A7605A /* PBXTargetDependency */,
+				F679AB841F9EAC120F42D6D74F7F2A78 /* PBXTargetDependency */,
 			);
 			name = YYWebImage;
 			productName = YYWebImage;
-			productReference = 127570A9F93F8EE737D761B763A451A6 /* libYYWebImage.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E3E893A4611B9396B1D5187A31FD2C69 /* YYImage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6BE0E1C6311429DEABFE6434ACA9C9A /* Build configuration list for PBXNativeTarget "YYImage" */;
-			buildPhases = (
-				2AD4934F5E3EFFC5DC6E678971DB7F1D /* Headers */,
-				908F8191C2965D27ECFBDF4271A5DD15 /* Sources */,
-				FA513C4C5EE81B40874C20E11547D5A7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYImage;
-			productName = YYImage;
-			productReference = 0E0E0D8161E06C72C0A0DAF4D66A6215 /* libYYImage.a */;
+			productReference = 3EB3A31D83B575F2EBC2143370AD67DA /* libYYWebImage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -609,68 +743,89 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D7468F9390803B5A786EC36E6649961B /* Products */;
+			productRefGroup = ABE53B621C091D1115F992878B6E5316 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B69929C23A66C9DBDE08428FB5006E9 /* Pods-NyTimes */,
+				BE86496BC63BE0729BA05C91AA9D37B8 /* FCAlertView */,
+				7F8EBAF56639FB73964C603C2F1DF930 /* FCAlertView-FCAlertView */,
+				6D257CBAF51A21D8F896342695BED602 /* Pods-NyTimes */,
 				8AB2DE2EBEE2652F7AF7B87D9910EE1E /* Pods-NyTimesTests */,
 				9768AB1D1005F1D6F959B3352D3D7444 /* Pods-NyTimesUITests */,
-				B7F55A52DE1DA6F7073CE55A268D6209 /* YYCache */,
-				E3E893A4611B9396B1D5187A31FD2C69 /* YYImage */,
-				BC5F588B7A2A741930B829D9A05F3336 /* YYWebImage */,
+				1FDEA790C92F7BFA0717DB3EF4BF837E /* YYCache */,
+				60B6876E30432683A50D6E214735242A /* YYImage */,
+				FD5B2DF7CD6AA53C20AD9657E318D6DC /* YYWebImage */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C44E4944914CA70C473500551EE1BEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC64811A52E6C5340D881E9E6A631B2 /* alert-round.png in Resources */,
+				872B89D7067757281DCA42BA2BE61349 /* checkmark-round.png in Resources */,
+				5823291ADA12EBE06570F0E9D4A12C64 /* close-round.png in Resources */,
+				05139292777C8F5485A2C5614EABBA08 /* heart.png in Resources */,
+				E203E24DAA06F2F932581257E971D052 /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		520F32771254239928E03D96296F4133 /* Sources */ = {
+		083C735C36CEF014F420DFD265F07E24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289517DB1A5D60CB22EEA5F09490A736 /* _YYWebImageSetter.m in Sources */,
-				09D2EA47E7CB80A76B8CD72734254A88 /* CALayer+YYWebImage.m in Sources */,
-				CB567D61F9112CCF3ED60E2E19BA7BE0 /* MKAnnotationView+YYWebImage.m in Sources */,
-				94C391475830623D658EF1BBF346A702 /* UIButton+YYWebImage.m in Sources */,
-				80C97BF9B511F02E8B78AD6830146885 /* UIImage+YYWebImage.m in Sources */,
-				023D286B4362DFF356A6ABF864EA848C /* UIImageView+YYWebImage.m in Sources */,
-				D14A16FBE75F4D55F236EA3656A1E190 /* YYImageCache.m in Sources */,
-				7159B4C2264346196BA74D1AEAD60CBD /* YYWebImage-dummy.m in Sources */,
-				B549FB49E4C8D87C93375DBB604B3111 /* YYWebImageManager.m in Sources */,
-				91EAC68587AA3C0411658CE2176D8604 /* YYWebImageOperation.m in Sources */,
+				E71C738BB1C76C6921949E60679D51F4 /* Pods-NyTimes-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86533A5CE99392347BFFCEF1E51C52F2 /* Sources */ = {
+		0F3E1D34B571556BB761D58C8C8A15CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F34A2CB573DBF3133A3AA2E0BA3A87 /* YYCache-dummy.m in Sources */,
-				DF177C00D1C7E5872B88F0A5C9232AB3 /* YYCache.m in Sources */,
-				B7EDDC1EC50CBE1A396FA57D452356E9 /* YYDiskCache.m in Sources */,
-				BC462C2607C5EB50B8A263616A33869B /* YYKVStorage.m in Sources */,
-				E7C7B4EC72BBFF8634177A592FA9B64A /* YYMemoryCache.m in Sources */,
+				FB9E40079BA3CC7BDB76982F690F97BC /* YYAnimatedImageView.m in Sources */,
+				C24AB27565F70512F1DCF85956191284 /* YYFrameImage.m in Sources */,
+				F7D313394BD251CA2CFFACBD492151EA /* YYImage-dummy.m in Sources */,
+				05CC65E02DC755EEADE96F13D49424EC /* YYImage.m in Sources */,
+				68AF183D718AEB845CF15D49419231DB /* YYImageCoder.m in Sources */,
+				C4ADD0DC5BBC572CB661C064F46834FA /* YYSpriteSheetImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89D6FFBCF3E1936C6281DD410783AA4A /* Sources */ = {
+		2606E83D037E8978992EBDD394B8BCB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0152624CA17524DD47619C15F76CF69A /* Pods-NyTimes-dummy.m in Sources */,
+				BAC626B48B37F8E48FAAC8817968C035 /* FCAlertView-dummy.m in Sources */,
+				1251B74B724072774B2847500FE58B42 /* FCAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		908F8191C2965D27ECFBDF4271A5DD15 /* Sources */ = {
+		374F66FC295ADDF8D9084A5C8E8D24F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F98A8662C15E9462C8477BB01E07784 /* YYAnimatedImageView.m in Sources */,
-				A36B91ECF1DB2FB91B704A66070ED224 /* YYFrameImage.m in Sources */,
-				D1F02043A71C555780072DE2374F4C17 /* YYImage-dummy.m in Sources */,
-				904F8E74FF44F52E3FE7530C88CD6FD6 /* YYImage.m in Sources */,
-				FD1ECD1D84E0DFF70F96D66ECB87D2C6 /* YYImageCoder.m in Sources */,
-				8F3CF602527785FE090B5A444749437C /* YYSpriteSheetImage.m in Sources */,
+				94377C02C49AD035D826D00E335B3A05 /* _YYWebImageSetter.m in Sources */,
+				DC5F362F9BDC8EF9D59C722EE8D3DBF8 /* CALayer+YYWebImage.m in Sources */,
+				D27A73D45E834F3A0139D96D79C39BF3 /* MKAnnotationView+YYWebImage.m in Sources */,
+				6AA5816DCFE7566CE5EC7780C18A8309 /* UIButton+YYWebImage.m in Sources */,
+				0F0693A4584FB1B8CFC0DCBA12441CAA /* UIImage+YYWebImage.m in Sources */,
+				6837D3B6B58876CA3C253615A0C85237 /* UIImageView+YYWebImage.m in Sources */,
+				9B7E529E4A2C52FA0E007318170BDB18 /* YYImageCache.m in Sources */,
+				55B5B5CA9E94B87EB2BFDC1B11FA155A /* YYWebImage-dummy.m in Sources */,
+				E271169050BD321868CECAE81A91A29E /* YYWebImageManager.m in Sources */,
+				17E10C3C2FF7797DF91821FBD8AB255B /* YYWebImageOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1E6ABE37788FD21B67BF57F8C505AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +834,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E94F06CEB92ECCAC481A3883D82E3A /* Pods-NyTimesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01E04C8F6B97C57C43C052FEF6E6C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A706BCD9C77FBA30FC31E655A3CC947 /* YYCache-dummy.m in Sources */,
+				E984605260D07020405FF6C4BCB329E4 /* YYCache.m in Sources */,
+				58D3CD905B72CB03C675813B85F07BE5 /* YYDiskCache.m in Sources */,
+				050A4761BDF3AF48089BD7063604BE51 /* YYKVStorage.m in Sources */,
+				4C390DEA29AB0214DF30A1E16FAC6CA1 /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,66 +860,78 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15E8FD4D7248517C6A3520D4182AA201 /* PBXTargetDependency */ = {
+		18BADD31A92AD48D9387F63085AF48CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYWebImage;
-			target = BC5F588B7A2A741930B829D9A05F3336 /* YYWebImage */;
-			targetProxy = 376460D85A7948E430DB0B7585B98382 /* PBXContainerItemProxy */;
+			target = FD5B2DF7CD6AA53C20AD9657E318D6DC /* YYWebImage */;
+			targetProxy = BC8B4E56F44710B3AA9F57675CB231BB /* PBXContainerItemProxy */;
+		};
+		272783A3F8B15D7B05ABE47D38638CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = 1FDEA790C92F7BFA0717DB3EF4BF837E /* YYCache */;
+			targetProxy = 1282E8BFEE71DF0E112BD68AF83F3B14 /* PBXContainerItemProxy */;
+		};
+		39497212CD98ABB299CE387DDDBFEA13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCAlertView-FCAlertView";
+			target = 7F8EBAF56639FB73964C603C2F1DF930 /* FCAlertView-FCAlertView */;
+			targetProxy = 859EEAFB33004843423D43ECCAF32601 /* PBXContainerItemProxy */;
 		};
 		3A18A81D2E55B10F6482F102052D8F46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NyTimes";
-			target = 8B69929C23A66C9DBDE08428FB5006E9 /* Pods-NyTimes */;
+			target = 6D257CBAF51A21D8F896342695BED602 /* Pods-NyTimes */;
 			targetProxy = 5B773E35F0DB0190C3A801DAB71A299A /* PBXContainerItemProxy */;
 		};
-		46B394E43AC6AF3C6908483F1FA3C000 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = B7F55A52DE1DA6F7073CE55A268D6209 /* YYCache */;
-			targetProxy = C49548593903271BBF75D064D78D7F12 /* PBXContainerItemProxy */;
-		};
-		4BD1D585DBAEAA2329B1E0CD99450A2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = B7F55A52DE1DA6F7073CE55A268D6209 /* YYCache */;
-			targetProxy = 1C80F97498556A5C2C4FDD901251FFEC /* PBXContainerItemProxy */;
-		};
-		859A8B3003402D2184A531531D150EDD /* PBXTargetDependency */ = {
+		633F0FE8AF38E1E9306AAA84AD750A20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYImage;
-			target = E3E893A4611B9396B1D5187A31FD2C69 /* YYImage */;
-			targetProxy = C3B506CA9C1B8A8A6DD9627443242C1A /* PBXContainerItemProxy */;
+			target = 60B6876E30432683A50D6E214735242A /* YYImage */;
+			targetProxy = 376CA4F27FA3C6DC582B2D88EFE3D9F2 /* PBXContainerItemProxy */;
 		};
-		C7FF8478CB2ABD953F246F9FC8B621E8 /* PBXTargetDependency */ = {
+		6345F090DC8EF945B4851DAB21A7605A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = YYImage;
-			target = E3E893A4611B9396B1D5187A31FD2C69 /* YYImage */;
-			targetProxy = 946DE54E789C20C11DC9E2D502F1E7CF /* PBXContainerItemProxy */;
+			name = YYCache;
+			target = 1FDEA790C92F7BFA0717DB3EF4BF837E /* YYCache */;
+			targetProxy = 6BBCE89997268BE70352CE12CD9B811E /* PBXContainerItemProxy */;
+		};
+		73179F50FAB978F1B51564B5D472C2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCAlertView;
+			target = BE86496BC63BE0729BA05C91AA9D37B8 /* FCAlertView */;
+			targetProxy = D9617AB8ADD89E672B1DFF4452DE1146 /* PBXContainerItemProxy */;
 		};
 		CA3C0C9561AB77F408CF22669DE16598 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NyTimes";
-			target = 8B69929C23A66C9DBDE08428FB5006E9 /* Pods-NyTimes */;
+			target = 6D257CBAF51A21D8F896342695BED602 /* Pods-NyTimes */;
 			targetProxy = 4A8DF5B0E1B25A6AE697799693BA10B4 /* PBXContainerItemProxy */;
+		};
+		F679AB841F9EAC120F42D6D74F7F2A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYImage;
+			target = 60B6876E30432683A50D6E214735242A /* YYImage */;
+			targetProxy = B91DEAA8A73C577164D8BB5021368CCC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0449FF3458F71C8C4D0C6BAD91F9C693 /* Debug */ = {
+		00CEA1811AC9EE8FFC803AD9DDD8DD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 346BC8B7B61117311C50358E8A620EBE /* YYCache.xcconfig */;
+			baseConfigurationReference = 41C313EE08982F54811F42C6BA89096F /* FCAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYCache;
-				PRODUCT_NAME = YYCache;
+				PRODUCT_MODULE_NAME = FCAlertView;
+				PRODUCT_NAME = FCAlertView;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -825,33 +1004,25 @@
 			};
 			name = Debug;
 		};
-		1D0BBC8267A6C99F9A26AEE754D2BF13 /* Release */ = {
+		135E7BF4623B21B5CD9A09D841B759F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22C5C2DC1C2CEAB4C3F026F20E06DBD /* YYImage.xcconfig */;
+			baseConfigurationReference = 41C313EE08982F54811F42C6BA89096F /* FCAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYImage/YYImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYImage;
-				PRODUCT_NAME = YYImage;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = FCAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		4FE9E7DAC064F5184160AA4FDEB07E33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D55CF470CF0B770EAF00EF350E5571B1 /* Pods-NyTimesUITests.release.xcconfig */;
+			baseConfigurationReference = C2ECB6671F53F954FB290931CE997CBB /* Pods-NyTimesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -873,7 +1044,28 @@
 		};
 		50A7DFB0A5E8FBD2C8D377B45112AC4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 360EB5B0EAAA46B8F55D879440827AE9 /* Pods-NyTimesUITests.debug.xcconfig */;
+			baseConfigurationReference = 4CDC172B84DA9A0F85495B17EB648829 /* Pods-NyTimesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527449FB43B55A2E682E4B942B73AD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530D876D3FD291448E27E5D7DC8AC678 /* Pods-NyTimes.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -894,7 +1086,7 @@
 		};
 		5F756EEC2901C6BE5463C88B37BFBCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712604238BA37D027F270F13EB56B475 /* Pods-NyTimesTests.debug.xcconfig */;
+			baseConfigurationReference = C4A57D6FB19AA0F7819E20CE2D99B2FB /* Pods-NyTimesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -912,51 +1104,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		6763A54843471F29B16331541179550B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6730D667DAE25332981930E1AE020D29 /* YYWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYWebImage/YYWebImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYWebImage;
-				PRODUCT_NAME = YYWebImage;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9DE6A3D5D61B190233613436EDB5B386 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEFDA3627825F62D447042E7DA03A378 /* Pods-NyTimes.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1018,31 +1165,9 @@
 			};
 			name = Release;
 		};
-		B0C4B277AFE6AAEB024EEFAE00AE8FF5 /* Release */ = {
+		A319CD084856B22832EE9AFAA76CAA81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91032C1A49D64F0FF2FA0A9550EC654E /* Pods-NyTimesTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B3727619D4FAF433B8A0A9D299CFDC99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 346BC8B7B61117311C50358E8A620EBE /* YYCache.xcconfig */;
+			baseConfigurationReference = 432EA2AF7DFD28FD63482C414CA872BD /* YYCache.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1064,30 +1189,9 @@
 			};
 			name = Release;
 		};
-		EE974DD826DB2441111CA4659583BACB /* Debug */ = {
+		A6E050E0F655F527460986834FFB0A24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20343A933C2739242A542EB43BD07A7E /* Pods-NyTimes.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F48C5155E2387C9F89352DA4C907C164 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22C5C2DC1C2CEAB4C3F026F20E06DBD /* YYImage.xcconfig */;
+			baseConfigurationReference = 091A7C7427EB628DF599D65382438FB2 /* YYImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1105,12 +1209,58 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABFB7128F2CFE6FC2358801FD8E64C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4174AB1B10A711B7C1E20025CFE97FF /* YYWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYWebImage/YYWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYWebImage;
+				PRODUCT_NAME = YYWebImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FFD221B729AD8449C5BEB3CB33EAE4AA /* Release */ = {
+		B0C4B277AFE6AAEB024EEFAE00AE8FF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6730D667DAE25332981930E1AE020D29 /* YYWebImage.xcconfig */;
+			baseConfigurationReference = DCFBAC4FE3E7B978E00A04581525DB66 /* Pods-NyTimesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8270833644BA0F72042B836903156F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4174AB1B10A711B7C1E20025CFE97FF /* YYWebImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1132,14 +1282,131 @@
 			};
 			name = Release;
 		};
+		C4EE8FE876F5F57716A1A11E4A5F0CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C313EE08982F54811F42C6BA89096F /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C5E58BE0D5E08B550233A390AAE91529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091A7C7427EB628DF599D65382438FB2 /* YYImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYImage/YYImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYImage;
+				PRODUCT_NAME = YYImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD5727ED91DFF93535B3F25BF7BF70B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C313EE08982F54811F42C6BA89096F /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FCAlertView;
+				PRODUCT_NAME = FCAlertView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F469E5A152497B17CF7C27F2ADE0CF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03835AB3BEB49E22E9A531CD2BF27DD /* Pods-NyTimes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC83E4767EF24F0102568D687D19B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432EA2AF7DFD28FD63482C414CA872BD /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F167C78AE256D971C2E6AFCAC87758A /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		1C4F126288D47C875AA07E1FCFF7DEBC /* Build configuration list for PBXNativeTarget "Pods-NyTimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0449FF3458F71C8C4D0C6BAD91F9C693 /* Debug */,
-				B3727619D4FAF433B8A0A9D299CFDC99 /* Release */,
+				527449FB43B55A2E682E4B942B73AD97 /* Debug */,
+				F469E5A152497B17CF7C27F2ADE0CF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E7526C66F71E909751AABED19B2647 /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CEA1811AC9EE8FFC803AD9DDD8DD0B /* Debug */,
+				CD5727ED91DFF93535B3F25BF7BF70B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1153,11 +1420,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59563A7AA522BF6CF20703ACB0E42CCE /* Build configuration list for PBXNativeTarget "YYWebImage" */ = {
+		5284525EBC212670079973876417DB07 /* Build configuration list for PBXNativeTarget "YYImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6763A54843471F29B16331541179550B /* Debug */,
-				FFD221B729AD8449C5BEB3CB33EAE4AA /* Release */,
+				C5E58BE0D5E08B550233A390AAE91529 /* Debug */,
+				A6E050E0F655F527460986834FFB0A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533668443B646DF3119B07064B0040A6 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC83E4767EF24F0102568D687D19B1D /* Debug */,
+				A319CD084856B22832EE9AFAA76CAA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CEAB6B4D08F01B6F8C76845DE00FF2 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135E7BF4623B21B5CD9A09D841B759F3 /* Debug */,
+				C4EE8FE876F5F57716A1A11E4A5F0CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1171,20 +1456,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A960F727040B147DE30E32553E90240C /* Build configuration list for PBXNativeTarget "Pods-NyTimes" */ = {
+		D8657296E7721E1A134ACD5A277E8FFF /* Build configuration list for PBXNativeTarget "YYWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE974DD826DB2441111CA4659583BACB /* Debug */,
-				9DE6A3D5D61B190233613436EDB5B386 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6BE0E1C6311429DEABFE6434ACA9C9A /* Build configuration list for PBXNativeTarget "YYImage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F48C5155E2387C9F89352DA4C907C164 /* Debug */,
-				1D0BBC8267A6C99F9A26AEE754D2BF13 /* Release */,
+				ABFB7128F2CFE6FC2358801FD8E64C19 /* Debug */,
+				B8270833644BA0F72042B836903156F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

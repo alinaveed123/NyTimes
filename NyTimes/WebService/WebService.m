@@ -5,6 +5,8 @@
 //  Created by Nytimes on 5/15/19.
 //
 #import "WebService.h"
+#import "Utility.h"
+#import "Constant.h"
 
 @implementation WebService
 @synthesize session,configuration;
@@ -31,9 +33,17 @@
 
 
 -(void)commonMethodForGet:(NSString *)url success:(void (^)(NSDictionary *dict))success fail:(ErrorHandler)nonsuccess
+                         withController:(UIViewController *)caller
 {
     [self headerMethodWithserverUrl:url];
+   
+    if (![appdel CheckInternetConnection])
+    {
+        [Utility showUIAlertView:@"Alert" msg:@"No Internet Connection" withAlertType:@"fail" withController:caller];
+            return;
+    }
     
+    [appdel UCSHUD];
     configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     configuration.timeoutIntervalForRequest = 60.0;
     session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:nil];
@@ -49,6 +59,7 @@
 
             if (result)
             {
+                
                 success(result);
             }
             else

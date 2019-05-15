@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60B6876E30432683A50D6E214735242A"
-               BuildableName = "libYYImage.a"
-               BlueprintName = "YYImage"
+               BlueprintIdentifier = "BE86496BC63BE0729BA05C91AA9D37B8"
+               BuildableName = "libFCAlertView.a"
+               BlueprintName = "FCAlertView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
